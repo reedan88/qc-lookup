@@ -1,3 +1,3 @@
 # qc-lookup
 
-Quality control algorith tables.
+Quality control algorithm tables.
