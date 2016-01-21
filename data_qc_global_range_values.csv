@@ -1,4 +1,4 @@
-ReferenceDesignator,ParameterID_,ParameterID_,GlobalRangeMin,GlobalRangeMax,_DataLevel,_Units,_Array ID,_Platform ID,_Instrument
+ReferenceDesignator,ParameterID_R,ParameterID_T,GlobalRangeMin,GlobalRangeMax,_DataLevel,_Units,_Array ID,_Platform ID,_Instrument
 CE01ISSM-MFD35-01-VEL3DD000,vel3d_c_eastward_turbulent_velocity,vel3d_c_eastward_turbulent_velocity,-3,3,L1,m s-1,CE01ISSM,MFD35,VEL3D
 CE01ISSM-MFD35-01-VEL3DD000,vel3d_c_northward_turbulent_velocity,vel3d_c_northward_turbulent_velocity,-3,3,L1,m s-1,CE01ISSM,MFD35,VEL3D
 CE01ISSM-MFD35-01-VEL3DD000,vel3d_c_upward_turbulent_velocity,vel3d_c_upward_turbulent_velocity,-1,1,L1,m s-1,CE01ISSM,MFD35,VEL3D
