@@ -35600,7 +35600,7 @@ RS03AXPS-SF03A-4F-PCO2WA301,pco2w_thermistor_temperature,pco2w_thermistor_temper
 RS03CCAL-MJ03F-05-BOTPTA301,port_timestamp,port_timestamp,,,ENG,seconds since 1900-01-01,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,driver_timestamp,driver_timestamp,,,ENG,seconds since 1900-01-01,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,corrected_compass_direction,corrected_compass_direction,0,360,L1,degrees,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-300,300,L1,urad,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-329.999,329.999,L1,urad,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,seafloor_tilt_direction,seafloor_tilt_direction,0,360,L1,degrees,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,internal_timestamp,internal_timestamp,,,ENG,seconds since 1900-01-01,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,lily_leveling_status,lily_leveling_status,,,ENG,1,RS03CCAL,MJ03F,BOTPT
@@ -35612,28 +35612,28 @@ RS03CCAL-MJ03F-05-BOTPTA301,botpt_nano_status,botpt_nano_status,,,ENG,1,RS03CCAL
 RS03CCAL-MJ03F-05-BOTPTA301,botpt_syst_status,botpt_syst_status,,,ENG,1,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,serial_number,serial_number,,,ENG,1,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,botsflu_time15s,botsflu_time15s,,,L2,sec since 01-01-1900,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_meanpres,botsflu_meanpres,,,L2,psia,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_meandepth,botsflu_meandepth,,,L2,m,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_5minrate,botsflu_5minrate,,,L2,cm min-1,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_10minrate,botsflu_10minrate,,,L2,cm hr-1,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_meanpres,botsflu_meanpres,1500,3200,L2,psia,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_meandepth,botsflu_meandepth,1000,2000,L2,m,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_5minrate,botsflu_5minrate,-100,100,L2,cm min-1,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_10minrate,botsflu_10minrate,-1000,1000,L2,cm hr-1,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,botsflu_time24h,botsflu_time24h,,,L2,sec since 01-01-1900,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_daydepth,botsflu_daydepth,,,L2,m,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_4wkrate,botsflu_4wkrate,,,L2,cm yr-1,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_8wkrate,botsflu_8wkrate,,,L2,cm yr-1,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,botsflu_predtide,botsflu_predtide,,,L2,m,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_daydepth,botsflu_daydepth,1000,2000,L2,m,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_4wkrate,botsflu_4wkrate,-1000,1000,L2,cm yr-1,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_8wkrate,botsflu_8wkrate,-1000,1000,L2,cm yr-1,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,botsflu_predtide,botsflu_predtide,-10,10,L2,m,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,time,time,,,ENG,seconds since 1900-01-01,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,sensor_id,sensor_id,,,ENG,1,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,time_sync_flag,time_sync_flag,,,ENG,1,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,lily_x_tilt,lily_x_tilt,-300,300,L0,urad,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,lily_y_tilt,lily_y_tilt,-300,300,L0,urad,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,compass_direction,compass_direction,0,360,L0,degrees,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,lily_x_tilt,lily_x_tilt,,,L0,urad,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,lily_y_tilt,lily_y_tilt,,,L0,urad,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,compass_direction,compass_direction,,,L0,degrees,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,supply_voltage,supply_voltage,,,AUX,V,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,press_trans_temp,press_trans_temp,,,AUX,deg_C,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,heat_x_tilt,heat_x_tilt,,,AUX,degrees,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,heat_y_tilt,heat_y_tilt,,,AUX,degrees,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,iris_x_tilt,iris_x_tilt,,,AUX,degrees,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,iris_y_tilt,iris_y_tilt,,,AUX,degrees,RS03CCAL,MJ03F,BOTPT
-RS03CCAL-MJ03F-05-BOTPTA301,bottom_pressure,bottom_pressure,0,6000,L1,psia,RS03CCAL,MJ03F,BOTPT
+RS03CCAL-MJ03F-05-BOTPTA301,bottom_pressure,bottom_pressure,1500,3200,L1,psia,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,lily_temp,lily_temp,,,AUX,deg_C,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,iris_temp,iris_temp,,,AUX,deg_C,RS03CCAL,MJ03F,BOTPT
 RS03CCAL-MJ03F-05-BOTPTA301,heat_temp,heat_temp,,,AUX,deg_C,RS03CCAL,MJ03F,BOTPT
@@ -35642,7 +35642,7 @@ RS03CCAL-MJ03F-05-BOTPTA301,date_time_string,date_time_string,,,ENG,1,RS03CCAL,M
 RS03ECAL-MJ03E-06-BOTPTA302,port_timestamp,port_timestamp,,,ENG,seconds since 1900-01-01,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,driver_timestamp,driver_timestamp,,,ENG,seconds since 1900-01-01,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,corrected_compass_direction,corrected_compass_direction,0,360,L1,degrees,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-300,300,L1,urad,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-329.999,329.999,L1,urad,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,seafloor_tilt_direction,seafloor_tilt_direction,0,360,L1,degrees,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,internal_timestamp,internal_timestamp,,,ENG,seconds since 1900-01-01,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,lily_leveling_status,lily_leveling_status,,,ENG,1,RS03ECAL,MJ03E,BOTPT
@@ -35654,28 +35654,28 @@ RS03ECAL-MJ03E-06-BOTPTA302,botpt_nano_status,botpt_nano_status,,,ENG,1,RS03ECAL
 RS03ECAL-MJ03E-06-BOTPTA302,botpt_syst_status,botpt_syst_status,,,ENG,1,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,serial_number,serial_number,,,ENG,1,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,botsflu_time15s,botsflu_time15s,,,L2,sec since 01-01-1900,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_meanpres,botsflu_meanpres,,,L2,psia,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_meandepth,botsflu_meandepth,,,L2,m,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_5minrate,botsflu_5minrate,,,L2,cm min-1,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_10minrate,botsflu_10minrate,,,L2,cm hr-1,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_meanpres,botsflu_meanpres,1500,3200,L2,psia,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_meandepth,botsflu_meandepth,1000,2000,L2,m,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_5minrate,botsflu_5minrate,-100,100,L2,cm min-1,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_10minrate,botsflu_10minrate,-1000,1000,L2,cm hr-1,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,botsflu_time24h,botsflu_time24h,,,L2,sec since 01-01-1900,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_daydepth,botsflu_daydepth,,,L2,m,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_4wkrate,botsflu_4wkrate,,,L2,cm yr-1,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_8wkrate,botsflu_8wkrate,,,L2,cm yr-1,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,botsflu_predtide,botsflu_predtide,,,L2,m,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_daydepth,botsflu_daydepth,1000,2000,L2,m,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_4wkrate,botsflu_4wkrate,-1000,1000,L2,cm yr-1,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_8wkrate,botsflu_8wkrate,-1000,1000,L2,cm yr-1,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,botsflu_predtide,botsflu_predtide,-10,10,L2,m,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,time,time,,,ENG,seconds since 1900-01-01,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,sensor_id,sensor_id,,,ENG,1,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,time_sync_flag,time_sync_flag,,,ENG,1,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,lily_x_tilt,lily_x_tilt,-300,300,L0,urad,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,lily_y_tilt,lily_y_tilt,-300,300,L0,urad,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,compass_direction,compass_direction,0,360,L0,degrees,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,lily_x_tilt,lily_x_tilt,,,L0,urad,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,lily_y_tilt,lily_y_tilt,,,L0,urad,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,compass_direction,compass_direction,,,L0,degrees,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,supply_voltage,supply_voltage,,,AUX,V,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,press_trans_temp,press_trans_temp,,,AUX,deg_C,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,heat_x_tilt,heat_x_tilt,,,AUX,degrees,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,heat_y_tilt,heat_y_tilt,,,AUX,degrees,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,iris_x_tilt,iris_x_tilt,,,AUX,degrees,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,iris_y_tilt,iris_y_tilt,,,AUX,degrees,RS03ECAL,MJ03E,BOTPT
-RS03ECAL-MJ03E-06-BOTPTA302,bottom_pressure,bottom_pressure,0,6000,L1,psia,RS03ECAL,MJ03E,BOTPT
+RS03ECAL-MJ03E-06-BOTPTA302,bottom_pressure,bottom_pressure,1500,3200,L1,psia,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,lily_temp,lily_temp,,,AUX,deg_C,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,iris_temp,iris_temp,,,AUX,deg_C,RS03ECAL,MJ03E,BOTPT
 RS03ECAL-MJ03E-06-BOTPTA302,heat_temp,heat_temp,,,AUX,deg_C,RS03ECAL,MJ03E,BOTPT
@@ -35939,7 +35939,7 @@ RS03INT1-MJ03C-10-TRHPHA301,vent_fluid_orp,vent_fluid_orp,,,L1,mV,RS03INT1,MJ03C
 RS03INT2-MJ03D-06-BOTPTA303,port_timestamp,port_timestamp,,,ENG,seconds since 1900-01-01,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,driver_timestamp,driver_timestamp,,,ENG,seconds since 1900-01-01,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,corrected_compass_direction,corrected_compass_direction,0,360,L1,degrees,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-300,300,L1,urad,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-329.999,329.999,L1,urad,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,seafloor_tilt_direction,seafloor_tilt_direction,0,360,L1,degrees,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,internal_timestamp,internal_timestamp,,,ENG,seconds since 1900-01-01,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,lily_leveling_status,lily_leveling_status,,,ENG,1,RS03INT2,MJ03D,BOTPT
@@ -35951,28 +35951,28 @@ RS03INT2-MJ03D-06-BOTPTA303,botpt_nano_status,botpt_nano_status,,,ENG,1,RS03INT2
 RS03INT2-MJ03D-06-BOTPTA303,botpt_syst_status,botpt_syst_status,,,ENG,1,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,serial_number,serial_number,,,ENG,1,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,botsflu_time15s,botsflu_time15s,,,L2,sec since 01-01-1900,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_meanpres,botsflu_meanpres,,,L2,psia,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_meandepth,botsflu_meandepth,,,L2,m,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_5minrate,botsflu_5minrate,,,L2,cm min-1,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_10minrate,botsflu_10minrate,,,L2,cm hr-1,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_meanpres,botsflu_meanpres,1500,3200,L2,psia,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_meandepth,botsflu_meandepth,1000,2000,L2,m,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_5minrate,botsflu_5minrate,-100,100,L2,cm min-1,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_10minrate,botsflu_10minrate,-1000,1000,L2,cm hr-1,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,botsflu_time24h,botsflu_time24h,,,L2,sec since 01-01-1900,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_daydepth,botsflu_daydepth,,,L2,m,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_4wkrate,botsflu_4wkrate,,,L2,cm yr-1,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_8wkrate,botsflu_8wkrate,,,L2,cm yr-1,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,botsflu_predtide,botsflu_predtide,,,L2,m,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_daydepth,botsflu_daydepth,1000,2000,L2,m,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_4wkrate,botsflu_4wkrate,-1000,1000,L2,cm yr-1,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_8wkrate,botsflu_8wkrate,-1000,1000,L2,cm yr-1,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,botsflu_predtide,botsflu_predtide,-10,10,L2,m,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,time,time,,,ENG,seconds since 1900-01-01,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,sensor_id,sensor_id,,,ENG,1,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,time_sync_flag,time_sync_flag,,,ENG,1,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,lily_x_tilt,lily_x_tilt,-300,300,L0,urad,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,lily_y_tilt,lily_y_tilt,-300,300,L0,urad,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,compass_direction,compass_direction,0,360,L0,degrees,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,lily_x_tilt,lily_x_tilt,,,L0,urad,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,lily_y_tilt,lily_y_tilt,,,L0,urad,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,compass_direction,compass_direction,,,L0,degrees,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,supply_voltage,supply_voltage,,,AUX,V,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,press_trans_temp,press_trans_temp,,,AUX,deg_C,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,heat_x_tilt,heat_x_tilt,,,AUX,degrees,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,heat_y_tilt,heat_y_tilt,,,AUX,degrees,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,iris_x_tilt,iris_x_tilt,,,AUX,degrees,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,iris_y_tilt,iris_y_tilt,,,AUX,degrees,RS03INT2,MJ03D,BOTPT
-RS03INT2-MJ03D-06-BOTPTA303,bottom_pressure,bottom_pressure,0,6000,L1,psia,RS03INT2,MJ03D,BOTPT
+RS03INT2-MJ03D-06-BOTPTA303,bottom_pressure,bottom_pressure,1500,3200,L1,psia,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,lily_temp,lily_temp,,,AUX,deg_C,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,iris_temp,iris_temp,,,AUX,deg_C,RS03INT2,MJ03D,BOTPT
 RS03INT2-MJ03D-06-BOTPTA303,heat_temp,heat_temp,,,AUX,deg_C,RS03INT2,MJ03D,BOTPT
