@@ -314,7 +314,7 @@ CE02SHSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CE02SHSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CE02SHSM,SBD11,METBKA000
-CE02SHSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CE02SHSM,SBD11,METBKA000
+CE02SHSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CE02SHSM,SBD11,METBKA000
@@ -683,7 +683,7 @@ CE04OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CE04OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CE04OSSM,SBD11,METBKA000
-CE04OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CE04OSSM,SBD11,METBKA000
+CE04OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CE04OSSM,SBD11,METBKA000
@@ -1468,7 +1468,7 @@ CE07SHSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CE07SHSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CE07SHSM,SBD11,METBKA000
-CE07SHSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CE07SHSM,SBD11,METBKA000
+CE07SHSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CE07SHSM,SBD11,METBKA000
@@ -1708,7 +1708,7 @@ CE09OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CE09OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CE09OSSM,SBD11,METBKA000
-CE09OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CE09OSSM,SBD11,METBKA000
+CE09OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CE09OSSM,SBD11,METBKA000
@@ -1867,7 +1867,7 @@ CP01CNSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CP01CNSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CP01CNSM,SBD11,METBKA000
-CP01CNSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CP01CNSM,SBD11,METBKA000
+CP01CNSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CP01CNSM,SBD11,METBKA000
@@ -1933,7 +1933,7 @@ CP01CNSM-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CP01CNSM-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CP01CNSM,SBD12,METBKA000
-CP01CNSM-SBD12-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CP01CNSM,SBD12,METBKA000
+CP01CNSM-SBD12-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CP01CNSM,SBD12,METBKA000
@@ -2279,7 +2279,7 @@ CP03ISSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CP03ISSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CP03ISSM,SBD11,METBKA000
-CP03ISSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CP03ISSM,SBD11,METBKA000
+CP03ISSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CP03ISSM,SBD11,METBKA000
@@ -2482,7 +2482,7 @@ CP04OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 CP04OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,CP04OSSM,SBD11,METBKA000
-CP04OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,CP04OSSM,SBD11,METBKA000
+CP04OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,CP04OSSM,SBD11,METBKA000
@@ -3178,7 +3178,7 @@ GA01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GA01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GA01SUMO,SBD11,METBKA000
-GA01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GA01SUMO,SBD11,METBKA000
+GA01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GA01SUMO,SBD11,METBKA000
@@ -3256,7 +3256,7 @@ GA01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GA01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GA01SUMO,SBD12,METBKA000
-GA01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GA01SUMO,SBD12,METBKA000
+GA01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GA01SUMO,SBD12,METBKA000
@@ -4071,7 +4071,7 @@ GI01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GI01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GI01SUMO,SBD11,METBKA000
-GI01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GI01SUMO,SBD11,METBKA000
+GI01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GI01SUMO,SBD11,METBKA000
@@ -4149,7 +4149,7 @@ GI01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GI01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GI01SUMO,SBD12,METBKA000
-GI01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GI01SUMO,SBD12,METBKA000
+GI01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GI01SUMO,SBD12,METBKA000
@@ -5698,7 +5698,7 @@ GS01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GS01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GS01SUMO,SBD11,METBKA000
-GS01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GS01SUMO,SBD11,METBKA000
+GS01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GS01SUMO,SBD11,METBKA000
@@ -5776,7 +5776,7 @@ GS01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0.
 GS01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0.01,10,15,L1,W m-2,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,0.003,10,5,L0,m s-1,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,0.003,10,5,L0,m s-1,GS01SUMO,SBD12,METBKA000
-GS01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,0,10,15,L1,Pa,GS01SUMO,SBD12,METBKA000
+GS01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,0,10,15,L1,Pa,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,10,15,,degrees,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,0,10,15,,m s-1,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,10,15,,degrees,GS01SUMO,SBD12,METBKA000

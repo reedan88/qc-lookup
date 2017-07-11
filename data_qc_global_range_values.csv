@@ -92,7 +92,7 @@ CE01ISSM-MFD37-07-ZPLSCC000,zplsc_c_pressure,zplsc_c_pressure,0,6000,,dBar,CE01I
 CE01ISSM-RID16-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE01ISSM,RID16,OPTAAD000
 CE01ISSM-RID16-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE01ISSM,RID16,OPTAAD000
 CE01ISSM-RID16-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE01ISSM,RID16,FLORTD000
-CE01ISSM-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE01ISSM,RID16,FLORTD000
+CE01ISSM-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE01ISSM,RID16,FLORTD000
 CE01ISSM-RID16-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE01ISSM,RID16,FLORTD000
 CE01ISSM-RID16-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE01ISSM,RID16,FLORTD000
 CE01ISSM-RID16-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE01ISSM,RID16,FLORTD000
@@ -142,7 +142,7 @@ CE01ISSM-SBD17-06-CTDBPC000,ctdbp_seawater_conductivity,ctdbp_seawater_conductiv
 CE01ISSM-SBD17-06-CTDBPC000,density,density,1000,1100,L2,kg m-3,CE01ISSM,SBD17,CTDBPC000
 CE01ISSM-SBD17-06-CTDBPC000,temp,temp,-2,40,L1,deg_C,CE01ISSM,SBD17,CTDBPC000
 CE01ISSM-SBD17-06-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE01ISSM,SBD17,FLORTD000
-CE01ISSM-SBD17-06-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE01ISSM,SBD17,FLORTD000
+CE01ISSM-SBD17-06-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE01ISSM,SBD17,FLORTD000
 CE01ISSM-SBD17-06-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE01ISSM,SBD17,FLORTD000
 CE01ISSM-SBD17-06-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE01ISSM,SBD17,FLORTD000
 CE01ISSM-SBD17-06-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE01ISSM,SBD17,FLORTD000
@@ -179,7 +179,7 @@ CE01ISSP-SP001-06-NUTNRJ000,humidity,humidity,,,,%,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-07-SPKIRJ000,pressure_depth,pressure_depth,0,6000,,dbar,CE01ISSP,SP001,SPKIRJ000
 CE01ISSP-SP001-07-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0,300,L1,uW cm-2 nm-1,CE01ISSP,SP001,SPKIRJ000
 CE01ISSP-SP001-08-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE01ISSP,SP001,FLORTJ000
-CE01ISSP-SP001-08-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE01ISSP,SP001,FLORTJ000
+CE01ISSP-SP001-08-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE01ISSP,SP001,FLORTJ000
@@ -280,7 +280,7 @@ CE02SHSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CE02SHSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE02SHSM,RID27,OPTAAD000
 CE02SHSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE02SHSM,RID27,OPTAAD000
 CE02SHSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE02SHSM,RID27,FLORTD000
-CE02SHSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE02SHSM,RID27,FLORTD000
+CE02SHSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE02SHSM,RID27,FLORTD000
 CE02SHSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE02SHSM,RID27,FLORTD000
 CE02SHSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE02SHSM,RID27,FLORTD000
 CE02SHSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE02SHSM,RID27,FLORTD000
@@ -314,7 +314,7 @@ CE02SHSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CE02SHSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CE02SHSM,SBD11,METBKA000
-CE02SHSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CE02SHSM,SBD11,METBKA000
+CE02SHSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CE02SHSM,SBD11,METBKA000
 CE02SHSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CE02SHSM,SBD11,METBKA000
@@ -441,7 +441,7 @@ CE02SHSP-SP001-05-NUTNRJ000,humidity,humidity,,,,%,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-06-SPKIRJ000,pressure_depth,pressure_depth,0,6000,,dbar,CE02SHSP,SP001,SPKIRJ000
 CE02SHSP-SP001-06-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0,300,L1,uW cm-2 nm-1,CE02SHSP,SP001,SPKIRJ000
 CE02SHSP-SP001-07-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE02SHSP,SP001,FLORTJ000
-CE02SHSP-SP001-07-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE02SHSP,SP001,FLORTJ000
+CE02SHSP-SP001-07-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE02SHSP,SP001,FLORTJ000
 CE02SHSP-SP001-07-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE02SHSP,SP001,FLORTJ000
 CE02SHSP-SP001-07-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE02SHSP,SP001,FLORTJ000
 CE02SHSP-SP001-07-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE02SHSP,SP001,FLORTJ000
@@ -572,7 +572,7 @@ CE04OSPS-SF01B-2A-DOFSTA107,seawater_pressure,seawater_pressure,0,6000,L1,dbar,C
 CE04OSPS-SF01B-2A-DOFSTA107,seawater_conductivity,seawater_conductivity,0,6,L1,S m-1,CE04OSPS,SF01B,DOFSTA107
 CE04OSPS-SF01B-2B-PHSENA108,ph_seawater,ph_seawater,7.3,8.5,L1,1,CE04OSPS,SF01B,PHSENA108
 CE04OSPS-SF01B-3A-FLORTD104,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE04OSPS,SF01B,FLORTD104
-CE04OSPS-SF01B-3A-FLORTD104,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE04OSPS,SF01B,FLORTD104
+CE04OSPS-SF01B-3A-FLORTD104,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE04OSPS,SF01B,FLORTD104
 CE04OSPS-SF01B-3A-FLORTD104,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE04OSPS,SF01B,FLORTD104
 CE04OSPS-SF01B-3A-FLORTD104,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE04OSPS,SF01B,FLORTD104
 CE04OSPS-SF01B-3A-FLORTD104,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE04OSPS,SF01B,FLORTD104
@@ -649,7 +649,7 @@ CE04OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CE04OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE04OSSM,RID27,OPTAAD000
 CE04OSSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE04OSSM,RID27,OPTAAD000
 CE04OSSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE04OSSM,RID27,FLORTD000
-CE04OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE04OSSM,RID27,FLORTD000
+CE04OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE04OSSM,RID27,FLORTD000
 CE04OSSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE04OSSM,RID27,FLORTD000
 CE04OSSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE04OSSM,RID27,FLORTD000
 CE04OSSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE04OSSM,RID27,FLORTD000
@@ -683,7 +683,7 @@ CE04OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CE04OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CE04OSSM,SBD11,METBKA000
-CE04OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CE04OSSM,SBD11,METBKA000
+CE04OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CE04OSSM,SBD11,METBKA000
 CE04OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CE04OSSM,SBD11,METBKA000
@@ -1252,7 +1252,7 @@ CE06ISSM-MFD37-07-ZPLSCC000,zplsc_c_pressure,zplsc_c_pressure,0,6000,,dBar,CE06I
 CE06ISSM-RID16-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE06ISSM,RID16,OPTAAD000
 CE06ISSM-RID16-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE06ISSM,RID16,OPTAAD000
 CE06ISSM-RID16-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE06ISSM,RID16,FLORTD000
-CE06ISSM-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE06ISSM,RID16,FLORTD000
+CE06ISSM-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE06ISSM,RID16,FLORTD000
 CE06ISSM-RID16-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE06ISSM,RID16,FLORTD000
 CE06ISSM-RID16-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE06ISSM,RID16,FLORTD000
 CE06ISSM-RID16-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE06ISSM,RID16,FLORTD000
@@ -1302,7 +1302,7 @@ CE06ISSM-SBD17-06-CTDBPC000,ctdbp_seawater_conductivity,ctdbp_seawater_conductiv
 CE06ISSM-SBD17-06-CTDBPC000,density,density,1000,1100,L2,kg m-3,CE06ISSM,SBD17,CTDBPC000
 CE06ISSM-SBD17-06-CTDBPC000,temp,temp,-2,40,L1,deg_C,CE06ISSM,SBD17,CTDBPC000
 CE06ISSM-SBD17-06-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE06ISSM,SBD17,FLORTD000
-CE06ISSM-SBD17-06-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE06ISSM,SBD17,FLORTD000
+CE06ISSM-SBD17-06-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE06ISSM,SBD17,FLORTD000
 CE06ISSM-SBD17-06-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE06ISSM,SBD17,FLORTD000
 CE06ISSM-SBD17-06-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE06ISSM,SBD17,FLORTD000
 CE06ISSM-SBD17-06-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE06ISSM,SBD17,FLORTD000
@@ -1339,7 +1339,7 @@ CE06ISSP-SP001-06-NUTNRJ000,humidity,humidity,,,,%,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-07-SPKIRJ000,pressure_depth,pressure_depth,0,6000,,dbar,CE06ISSP,SP001,SPKIRJ000
 CE06ISSP-SP001-07-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0,300,L1,uW cm-2 nm-1,CE06ISSP,SP001,SPKIRJ000
 CE06ISSP-SP001-08-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE06ISSP,SP001,FLORTJ000
-CE06ISSP-SP001-08-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE06ISSP,SP001,FLORTJ000
+CE06ISSP-SP001-08-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE06ISSP,SP001,FLORTJ000
 CE06ISSP-SP001-08-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE06ISSP,SP001,FLORTJ000
 CE06ISSP-SP001-08-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE06ISSP,SP001,FLORTJ000
 CE06ISSP-SP001-08-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE06ISSP,SP001,FLORTJ000
@@ -1434,7 +1434,7 @@ CE07SHSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CE07SHSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE07SHSM,RID27,OPTAAD000
 CE07SHSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE07SHSM,RID27,OPTAAD000
 CE07SHSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE07SHSM,RID27,FLORTD000
-CE07SHSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE07SHSM,RID27,FLORTD000
+CE07SHSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE07SHSM,RID27,FLORTD000
 CE07SHSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE07SHSM,RID27,FLORTD000
 CE07SHSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE07SHSM,RID27,FLORTD000
 CE07SHSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE07SHSM,RID27,FLORTD000
@@ -1468,7 +1468,7 @@ CE07SHSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CE07SHSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CE07SHSM,SBD11,METBKA000
-CE07SHSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CE07SHSM,SBD11,METBKA000
+CE07SHSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CE07SHSM,SBD11,METBKA000
 CE07SHSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CE07SHSM,SBD11,METBKA000
@@ -1557,7 +1557,7 @@ CE07SHSP-SP001-05-NUTNRJ000,humidity,humidity,,,,%,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-06-SPKIRJ000,pressure_depth,pressure_depth,0,6000,,dbar,CE07SHSP,SP001,SPKIRJ000
 CE07SHSP-SP001-06-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0,300,L1,uW cm-2 nm-1,CE07SHSP,SP001,SPKIRJ000
 CE07SHSP-SP001-07-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE07SHSP,SP001,FLORTJ000
-CE07SHSP-SP001-07-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE07SHSP,SP001,FLORTJ000
+CE07SHSP-SP001-07-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE07SHSP,SP001,FLORTJ000
 CE07SHSP-SP001-07-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE07SHSP,SP001,FLORTJ000
 CE07SHSP-SP001-07-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE07SHSP,SP001,FLORTJ000
 CE07SHSP-SP001-07-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE07SHSP,SP001,FLORTJ000
@@ -1583,7 +1583,7 @@ CE09OSPM-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CE09OSPM-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CE09OSPM,WFP01,CTDPFK000
 CE09OSPM-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CE09OSPM,WFP01,CTDPFK000
 CE09OSPM-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE09OSPM,WFP01,FLORTK000
-CE09OSPM-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE09OSPM,WFP01,FLORTK000
+CE09OSPM-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE09OSPM,WFP01,FLORTK000
 CE09OSPM-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE09OSPM,WFP01,FLORTK000
 CE09OSPM-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE09OSPM,WFP01,FLORTK000
 CE09OSPM-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE09OSPM,WFP01,FLORTK000
@@ -1674,7 +1674,7 @@ CE09OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CE09OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CE09OSSM,RID27,OPTAAD000
 CE09OSSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CE09OSSM,RID27,OPTAAD000
 CE09OSSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CE09OSSM,RID27,FLORTD000
-CE09OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CE09OSSM,RID27,FLORTD000
+CE09OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CE09OSSM,RID27,FLORTD000
 CE09OSSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CE09OSSM,RID27,FLORTD000
 CE09OSSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CE09OSSM,RID27,FLORTD000
 CE09OSSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CE09OSSM,RID27,FLORTD000
@@ -1708,7 +1708,7 @@ CE09OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CE09OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CE09OSSM,SBD11,METBKA000
-CE09OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CE09OSSM,SBD11,METBKA000
+CE09OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CE09OSSM,SBD11,METBKA000
 CE09OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CE09OSSM,SBD11,METBKA000
@@ -1840,7 +1840,7 @@ CP01CNSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CP01CNSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CP01CNSM,RID27,OPTAAD000
 CP01CNSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CP01CNSM,RID27,OPTAAD000
 CP01CNSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP01CNSM,RID27,FLORTD000
-CP01CNSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP01CNSM,RID27,FLORTD000
+CP01CNSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP01CNSM,RID27,FLORTD000
 CP01CNSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP01CNSM,RID27,FLORTD000
 CP01CNSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP01CNSM,RID27,FLORTD000
 CP01CNSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP01CNSM,RID27,FLORTD000
@@ -1867,7 +1867,7 @@ CP01CNSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CP01CNSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CP01CNSM,SBD11,METBKA000
-CP01CNSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CP01CNSM,SBD11,METBKA000
+CP01CNSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CP01CNSM,SBD11,METBKA000
 CP01CNSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CP01CNSM,SBD11,METBKA000
@@ -1933,7 +1933,7 @@ CP01CNSM-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CP01CNSM-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CP01CNSM,SBD12,METBKA000
-CP01CNSM-SBD12-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CP01CNSM,SBD12,METBKA000
+CP01CNSM-SBD12-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CP01CNSM,SBD12,METBKA000
 CP01CNSM-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CP01CNSM,SBD12,METBKA000
@@ -2037,7 +2037,7 @@ CP01CNSP-SP001-08-CTDPFJ000,salinity,salinity,0,42,L2,1,CP01CNSP,SP001,CTDPFJ000
 CP01CNSP-SP001-08-CTDPFJ000,temperature,temperature,-2,40,L1,deg_C,CP01CNSP,SP001,CTDPFJ000
 CP01CNSP-SP001-08-CTDPFJ000,density,density,1000,1100,L2,kg m-3,CP01CNSP,SP001,CTDPFJ000
 CP01CNSP-SP001-09-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP01CNSP,SP001,FLORTJ000
-CP01CNSP-SP001-09-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP01CNSP,SP001,FLORTJ000
+CP01CNSP-SP001-09-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP01CNSP,SP001,FLORTJ000
 CP01CNSP-SP001-09-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP01CNSP,SP001,FLORTJ000
 CP01CNSP-SP001-09-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP01CNSP,SP001,FLORTJ000
 CP01CNSP-SP001-09-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP01CNSP,SP001,FLORTJ000
@@ -2071,7 +2071,7 @@ CP02PMCI-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CP02PMCI-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CP02PMCI,WFP01,CTDPFK000
 CP02PMCI-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CP02PMCI,WFP01,CTDPFK000
 CP02PMCI-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP02PMCI,WFP01,FLORTK000
-CP02PMCI-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP02PMCI,WFP01,FLORTK000
+CP02PMCI-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP02PMCI,WFP01,FLORTK000
 CP02PMCI-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP02PMCI,WFP01,FLORTK000
 CP02PMCI-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP02PMCI,WFP01,FLORTK000
 CP02PMCI-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP02PMCI,WFP01,FLORTK000
@@ -2104,7 +2104,7 @@ CP02PMCO-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CP02PMCO-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CP02PMCO,WFP01,CTDPFK000
 CP02PMCO-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CP02PMCO,WFP01,CTDPFK000
 CP02PMCO-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP02PMCO,WFP01,FLORTK000
-CP02PMCO-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP02PMCO,WFP01,FLORTK000
+CP02PMCO-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP02PMCO,WFP01,FLORTK000
 CP02PMCO-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP02PMCO,WFP01,FLORTK000
 CP02PMCO-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP02PMCO,WFP01,FLORTK000
 CP02PMCO-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP02PMCO,WFP01,FLORTK000
@@ -2137,7 +2137,7 @@ CP02PMUI-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CP02PMUI-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CP02PMUI,WFP01,CTDPFK000
 CP02PMUI-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CP02PMUI,WFP01,CTDPFK000
 CP02PMUI-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP02PMUI,WFP01,FLORTK000
-CP02PMUI-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP02PMUI,WFP01,FLORTK000
+CP02PMUI-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP02PMUI,WFP01,FLORTK000
 CP02PMUI-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP02PMUI,WFP01,FLORTK000
 CP02PMUI-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP02PMUI,WFP01,FLORTK000
 CP02PMUI-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP02PMUI,WFP01,FLORTK000
@@ -2170,7 +2170,7 @@ CP02PMUO-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CP02PMUO-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CP02PMUO,WFP01,CTDPFK000
 CP02PMUO-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CP02PMUO,WFP01,CTDPFK000
 CP02PMUO-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP02PMUO,WFP01,FLORTK000
-CP02PMUO-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP02PMUO,WFP01,FLORTK000
+CP02PMUO-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP02PMUO,WFP01,FLORTK000
 CP02PMUO-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP02PMUO,WFP01,FLORTK000
 CP02PMUO-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP02PMUO,WFP01,FLORTK000
 CP02PMUO-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP02PMUO,WFP01,FLORTK000
@@ -2252,7 +2252,7 @@ CP03ISSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CP03ISSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CP03ISSM,RID27,OPTAAD000
 CP03ISSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CP03ISSM,RID27,OPTAAD000
 CP03ISSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP03ISSM,RID27,FLORTD000
-CP03ISSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP03ISSM,RID27,FLORTD000
+CP03ISSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP03ISSM,RID27,FLORTD000
 CP03ISSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP03ISSM,RID27,FLORTD000
 CP03ISSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP03ISSM,RID27,FLORTD000
 CP03ISSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP03ISSM,RID27,FLORTD000
@@ -2279,7 +2279,7 @@ CP03ISSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CP03ISSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CP03ISSM,SBD11,METBKA000
-CP03ISSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CP03ISSM,SBD11,METBKA000
+CP03ISSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CP03ISSM,SBD11,METBKA000
 CP03ISSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CP03ISSM,SBD11,METBKA000
@@ -2352,7 +2352,7 @@ CP03ISSP-SP001-08-CTDPFJ000,salinity,salinity,0,42,L2,1,CP03ISSP,SP001,CTDPFJ000
 CP03ISSP-SP001-08-CTDPFJ000,temperature,temperature,-2,40,L1,deg_C,CP03ISSP,SP001,CTDPFJ000
 CP03ISSP-SP001-08-CTDPFJ000,density,density,1000,1100,L2,kg m-3,CP03ISSP,SP001,CTDPFJ000
 CP03ISSP-SP001-09-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP03ISSP,SP001,FLORTJ000
-CP03ISSP-SP001-09-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP03ISSP,SP001,FLORTJ000
+CP03ISSP-SP001-09-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP03ISSP,SP001,FLORTJ000
 CP03ISSP-SP001-09-FLORTJ000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP03ISSP,SP001,FLORTJ000
 CP03ISSP-SP001-09-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP03ISSP,SP001,FLORTJ000
 CP03ISSP-SP001-09-FLORTJ000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP03ISSP,SP001,FLORTJ000
@@ -2373,7 +2373,7 @@ CP04OSPM-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_temperature,ctdpf_ckl_seawater_te
 CP04OSPM-WFP01-03-CTDPFK000,ctdpf_ckl_seawater_conductivity,ctdpf_ckl_seawater_conductivity,0,6,L1,S m-1,CP04OSPM,WFP01,CTDPFK000
 CP04OSPM-WFP01-03-CTDPFK000,density,density,1000,1100,L2,kg m-3,CP04OSPM,WFP01,CTDPFK000
 CP04OSPM-WFP01-04-FLORTK000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP04OSPM,WFP01,FLORTK000
-CP04OSPM-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP04OSPM,WFP01,FLORTK000
+CP04OSPM-WFP01-04-FLORTK000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP04OSPM,WFP01,FLORTK000
 CP04OSPM-WFP01-04-FLORTK000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP04OSPM,WFP01,FLORTK000
 CP04OSPM-WFP01-04-FLORTK000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP04OSPM,WFP01,FLORTK000
 CP04OSPM-WFP01-04-FLORTK000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP04OSPM,WFP01,FLORTK000
@@ -2455,7 +2455,7 @@ CP04OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CP04OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,CP04OSSM,RID27,OPTAAD000
 CP04OSSM-RID27-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,CP04OSSM,RID27,OPTAAD000
 CP04OSSM-RID27-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,CP04OSSM,RID27,FLORTD000
-CP04OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,CP04OSSM,RID27,FLORTD000
+CP04OSSM-RID27-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,CP04OSSM,RID27,FLORTD000
 CP04OSSM-RID27-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,CP04OSSM,RID27,FLORTD000
 CP04OSSM-RID27-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,CP04OSSM,RID27,FLORTD000
 CP04OSSM-RID27-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,CP04OSSM,RID27,FLORTD000
@@ -2482,7 +2482,7 @@ CP04OSSM-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 CP04OSSM-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,CP04OSSM,SBD11,METBKA000
-CP04OSSM-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,CP04OSSM,SBD11,METBKA000
+CP04OSSM-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,CP04OSSM,SBD11,METBKA000
 CP04OSSM-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,CP04OSSM,SBD11,METBKA000
@@ -2980,7 +2980,7 @@ CP05MOAS-GL389-05-PARADM000,parad_m_par,parad_m_par,0,2500,L1,umol photons m-2 s
 GA01SUMO-RID16-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GA01SUMO,RID16,OPTAAD000
 GA01SUMO-RID16-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GA01SUMO,RID16,OPTAAD000
 GA01SUMO-RID16-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA01SUMO,RID16,FLORTD000
-GA01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA01SUMO,RID16,FLORTD000
+GA01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA01SUMO,RID16,FLORTD000
 GA01SUMO-RID16-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GA01SUMO,RID16,FLORTD000
 GA01SUMO-RID16-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA01SUMO,RID16,FLORTD000
 GA01SUMO-RID16-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA01SUMO,RID16,FLORTD000
@@ -3139,11 +3139,11 @@ GA01SUMO-RII11-02-CTDMOR020,density,density,1000,1100,L2,kg m-3,GA01SUMO,RII11,C
 GA01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,6000,L1,dbar,GA01SUMO,RII11,CTDMOR020
 GA01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GA01SUMO,RII11,CTDMOR020
 GA01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GA01SUMO,RII11,CTDMOR020
-GA01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA01SUMO,RII11,FLORDG031
+GA01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA01SUMO,RII11,FLORDG031
 GA01SUMO-RII11-02-FLORDG031,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA01SUMO,RII11,FLORDG031
-GA01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA01SUMO,RII11,FLORDG032
+GA01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA01SUMO,RII11,FLORDG032
 GA01SUMO-RII11-02-FLORDG032,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA01SUMO,RII11,FLORDG032
-GA01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA01SUMO,RII11,FLORDG033
+GA01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA01SUMO,RII11,FLORDG033
 GA01SUMO-RII11-02-FLORDG033,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA01SUMO,RII11,FLORDG033
 GA01SUMO-RII11-02-PCO2WC051,absorbance_ratio_434,absorbance_ratio_434,0,100000,L0,counts,GA01SUMO,RII11,PCO2WC051
 GA01SUMO-RII11-02-PCO2WC051,absorbance_ratio_620,absorbance_ratio_620,0,100000,L0,counts,GA01SUMO,RII11,PCO2WC051
@@ -3178,7 +3178,7 @@ GA01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GA01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GA01SUMO,SBD11,METBKA000
-GA01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GA01SUMO,SBD11,METBKA000
+GA01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GA01SUMO,SBD11,METBKA000
 GA01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GA01SUMO,SBD11,METBKA000
@@ -3214,7 +3214,7 @@ GA01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GA01SUMO,SBD11,NUTNRB000
 GA01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GA01SUMO,SBD12,OPTAAD000
 GA01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GA01SUMO,SBD12,OPTAAD000
 GA01SUMO-SBD12-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA01SUMO,SBD12,FLORTD000
-GA01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA01SUMO,SBD12,FLORTD000
+GA01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA01SUMO,SBD12,FLORTD000
 GA01SUMO-SBD12-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GA01SUMO,SBD12,FLORTD000
 GA01SUMO-SBD12-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA01SUMO,SBD12,FLORTD000
 GA01SUMO-SBD12-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA01SUMO,SBD12,FLORTD000
@@ -3256,7 +3256,7 @@ GA01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GA01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GA01SUMO,SBD12,METBKA000
-GA01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GA01SUMO,SBD12,METBKA000
+GA01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GA01SUMO,SBD12,METBKA000
 GA01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GA01SUMO,SBD12,METBKA000
@@ -3293,7 +3293,7 @@ GA02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,60
 GA02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GA02HYPM,RIM01,CTDMOG039
 GA02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GA02HYPM,RIM01,CTDMOG039
 GA02HYPM-WFP02-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA02HYPM,WFP02,FLORDL000
-GA02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA02HYPM,WFP02,FLORDL000
+GA02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA02HYPM,WFP02,FLORDL000
 GA02HYPM-WFP02-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA02HYPM,WFP02,FLORDL000
 GA02HYPM-WFP02-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA02HYPM,WFP02,FLORDL000
 GA02HYPM-WFP02-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GA02HYPM,WFP02,DOSTAL000
@@ -3319,7 +3319,7 @@ GA02HYPM-WFP02-05-VEL3DL000,vel3d_l_northward_velocity,vel3d_l_northward_velocit
 GA02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_ascending,vel3d_l_upward_velocity_ascending,-1,1,L1,m s-1,GA02HYPM,WFP02,VEL3DL000
 GA02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_descending,vel3d_l_upward_velocity_descending,-1,1,L1,m s-1,GA02HYPM,WFP02,VEL3DL000
 GA02HYPM-WFP03-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA02HYPM,WFP03,FLORDL000
-GA02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA02HYPM,WFP03,FLORDL000
+GA02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA02HYPM,WFP03,FLORDL000
 GA02HYPM-WFP03-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA02HYPM,WFP03,FLORDL000
 GA02HYPM-WFP03-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA02HYPM,WFP03,FLORDL000
 GA02HYPM-WFP03-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GA02HYPM,WFP03,DOSTAL000
@@ -3462,7 +3462,7 @@ GA03FLMA-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GA03FLMA-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GA03FLMA,RIS01,DOSTAD000
 GA03FLMA-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GA03FLMA,RIS01,PHSENF000
 GA03FLMA-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA03FLMA,RIS01,FLORTD000
-GA03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA03FLMA,RIS01,FLORTD000
+GA03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA03FLMA,RIS01,FLORTD000
 GA03FLMA-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GA03FLMA,RIS01,FLORTD000
 GA03FLMA-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA03FLMA,RIS01,FLORTD000
 GA03FLMA-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA03FLMA,RIS01,FLORTD000
@@ -3584,7 +3584,7 @@ GA03FLMB-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GA03FLMB-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GA03FLMB,RIS01,DOSTAD000
 GA03FLMB-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GA03FLMB,RIS01,PHSENF000
 GA03FLMB-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GA03FLMB,RIS01,FLORTD000
-GA03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GA03FLMB,RIS01,FLORTD000
+GA03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GA03FLMB,RIS01,FLORTD000
 GA03FLMB-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GA03FLMB,RIS01,FLORTD000
 GA03FLMB-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GA03FLMB,RIS01,FLORTD000
 GA03FLMB-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GA03FLMB,RIS01,FLORTD000
@@ -3873,7 +3873,7 @@ GA05MOAS-PG580-06-PARADM000,parad_m_par,parad_m_par,0,2500,L1,umol photons m-2 s
 GI01SUMO-RID16-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GI01SUMO,RID16,OPTAAD000
 GI01SUMO-RID16-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GI01SUMO,RID16,OPTAAD000
 GI01SUMO-RID16-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GI01SUMO,RID16,FLORTD000
-GI01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI01SUMO,RID16,FLORTD000
+GI01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI01SUMO,RID16,FLORTD000
 GI01SUMO-RID16-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GI01SUMO,RID16,FLORTD000
 GI01SUMO-RID16-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI01SUMO,RID16,FLORTD000
 GI01SUMO-RID16-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GI01SUMO,RID16,FLORTD000
@@ -4032,11 +4032,11 @@ GI01SUMO-RII11-02-CTDMOR020,density,density,1000,1100,L2,kg m-3,GI01SUMO,RII11,C
 GI01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,6000,L1,dbar,GI01SUMO,RII11,CTDMOR020
 GI01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GI01SUMO,RII11,CTDMOR020
 GI01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GI01SUMO,RII11,CTDMOR020
-GI01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI01SUMO,RII11,FLORDG031
+GI01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI01SUMO,RII11,FLORDG031
 GI01SUMO-RII11-02-FLORDG031,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI01SUMO,RII11,FLORDG031
-GI01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI01SUMO,RII11,FLORDG032
+GI01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI01SUMO,RII11,FLORDG032
 GI01SUMO-RII11-02-FLORDG032,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI01SUMO,RII11,FLORDG032
-GI01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI01SUMO,RII11,FLORDG033
+GI01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI01SUMO,RII11,FLORDG033
 GI01SUMO-RII11-02-FLORDG033,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI01SUMO,RII11,FLORDG033
 GI01SUMO-RII11-02-PCO2WC051,absorbance_ratio_434,absorbance_ratio_434,0,100000,L0,counts,GI01SUMO,RII11,PCO2WC051
 GI01SUMO-RII11-02-PCO2WC051,absorbance_ratio_620,absorbance_ratio_620,0,100000,L0,counts,GI01SUMO,RII11,PCO2WC051
@@ -4071,7 +4071,7 @@ GI01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GI01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GI01SUMO,SBD11,METBKA000
-GI01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GI01SUMO,SBD11,METBKA000
+GI01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GI01SUMO,SBD11,METBKA000
 GI01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GI01SUMO,SBD11,METBKA000
@@ -4107,7 +4107,7 @@ GI01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GI01SUMO,SBD11,NUTNRB000
 GI01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GI01SUMO,SBD12,OPTAAD000
 GI01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GI01SUMO,SBD12,OPTAAD000
 GI01SUMO-SBD12-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GI01SUMO,SBD12,FLORTD000
-GI01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI01SUMO,SBD12,FLORTD000
+GI01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI01SUMO,SBD12,FLORTD000
 GI01SUMO-SBD12-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GI01SUMO,SBD12,FLORTD000
 GI01SUMO-SBD12-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI01SUMO,SBD12,FLORTD000
 GI01SUMO-SBD12-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GI01SUMO,SBD12,FLORTD000
@@ -4149,7 +4149,7 @@ GI01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GI01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GI01SUMO,SBD12,METBKA000
-GI01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GI01SUMO,SBD12,METBKA000
+GI01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GI01SUMO,SBD12,METBKA000
 GI01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GI01SUMO,SBD12,METBKA000
@@ -4224,7 +4224,7 @@ GI02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,60
 GI02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GI02HYPM,RIM01,CTDMOG039
 GI02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GI02HYPM,RIM01,CTDMOG039
 GI02HYPM-WFP02-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GI02HYPM,WFP02,FLORDL000
-GI02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI02HYPM,WFP02,FLORDL000
+GI02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI02HYPM,WFP02,FLORDL000
 GI02HYPM-WFP02-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI02HYPM,WFP02,FLORDL000
 GI02HYPM-WFP02-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GI02HYPM,WFP02,FLORDL000
 GI02HYPM-WFP02-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GI02HYPM,WFP02,DOSTAL000
@@ -4415,7 +4415,7 @@ GI03FLMA-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GI03FLMA-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GI03FLMA,RIS01,DOSTAD000
 GI03FLMA-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GI03FLMA,RIS01,PHSENF000
 GI03FLMA-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GI03FLMA,RIS01,FLORTD000
-GI03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI03FLMA,RIS01,FLORTD000
+GI03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI03FLMA,RIS01,FLORTD000
 GI03FLMA-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GI03FLMA,RIS01,FLORTD000
 GI03FLMA-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI03FLMA,RIS01,FLORTD000
 GI03FLMA-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GI03FLMA,RIS01,FLORTD000
@@ -4585,7 +4585,7 @@ GI03FLMB-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GI03FLMB-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GI03FLMB,RIS01,DOSTAD000
 GI03FLMB-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GI03FLMB,RIS01,PHSENF000
 GI03FLMB-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GI03FLMB,RIS01,FLORTD000
-GI03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GI03FLMB,RIS01,FLORTD000
+GI03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GI03FLMB,RIS01,FLORTD000
 GI03FLMB-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GI03FLMB,RIS01,FLORTD000
 GI03FLMB-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GI03FLMB,RIS01,FLORTD000
 GI03FLMB-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GI03FLMB,RIS01,FLORTD000
@@ -4841,7 +4841,7 @@ GP02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,60
 GP02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GP02HYPM,RIM01,CTDMOG039
 GP02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GP02HYPM,RIM01,CTDMOG039
 GP02HYPM-WFP02-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GP02HYPM,WFP02,FLORDL000
-GP02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GP02HYPM,WFP02,FLORDL000
+GP02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GP02HYPM,WFP02,FLORDL000
 GP02HYPM-WFP02-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GP02HYPM,WFP02,FLORDL000
 GP02HYPM-WFP02-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GP02HYPM,WFP02,FLORDL000
 GP02HYPM-WFP02-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GP02HYPM,WFP02,DOSTAL000
@@ -4867,7 +4867,7 @@ GP02HYPM-WFP02-05-VEL3DL000,vel3d_l_northward_velocity,vel3d_l_northward_velocit
 GP02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_ascending,vel3d_l_upward_velocity_ascending,-1,1,L1,m s-1,GP02HYPM,WFP02,VEL3DL000
 GP02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_descending,vel3d_l_upward_velocity_descending,-1,1,L1,m s-1,GP02HYPM,WFP02,VEL3DL000
 GP02HYPM-WFP03-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GP02HYPM,WFP03,FLORDL000
-GP02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GP02HYPM,WFP03,FLORDL000
+GP02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GP02HYPM,WFP03,FLORDL000
 GP02HYPM-WFP03-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GP02HYPM,WFP03,FLORDL000
 GP02HYPM-WFP03-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GP02HYPM,WFP03,FLORDL000
 GP02HYPM-WFP03-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GP02HYPM,WFP03,DOSTAL000
@@ -5010,7 +5010,7 @@ GP03FLMA-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GP03FLMA-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GP03FLMA,RIS01,DOSTAD000
 GP03FLMA-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GP03FLMA,RIS01,PHSENF000
 GP03FLMA-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GP03FLMA,RIS01,FLORTD000
-GP03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GP03FLMA,RIS01,FLORTD000
+GP03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GP03FLMA,RIS01,FLORTD000
 GP03FLMA-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GP03FLMA,RIS01,FLORTD000
 GP03FLMA-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GP03FLMA,RIS01,FLORTD000
 GP03FLMA-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GP03FLMA,RIS01,FLORTD000
@@ -5132,7 +5132,7 @@ GP03FLMB-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GP03FLMB-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GP03FLMB,RIS01,DOSTAD000
 GP03FLMB-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GP03FLMB,RIS01,PHSENF000
 GP03FLMB-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GP03FLMB,RIS01,FLORTD000
-GP03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GP03FLMB,RIS01,FLORTD000
+GP03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GP03FLMB,RIS01,FLORTD000
 GP03FLMB-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GP03FLMB,RIS01,FLORTD000
 GP03FLMB-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GP03FLMB,RIS01,FLORTD000
 GP03FLMB-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GP03FLMB,RIS01,FLORTD000
@@ -5500,7 +5500,7 @@ GP05MOAS-PG576-06-PARADM000,parad_m_par,parad_m_par,0,2500,L1,umol photons m-2 s
 GS01SUMO-RID16-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GS01SUMO,RID16,OPTAAD000
 GS01SUMO-RID16-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GS01SUMO,RID16,OPTAAD000
 GS01SUMO-RID16-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS01SUMO,RID16,FLORTD000
-GS01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS01SUMO,RID16,FLORTD000
+GS01SUMO-RID16-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS01SUMO,RID16,FLORTD000
 GS01SUMO-RID16-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GS01SUMO,RID16,FLORTD000
 GS01SUMO-RID16-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS01SUMO,RID16,FLORTD000
 GS01SUMO-RID16-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS01SUMO,RID16,FLORTD000
@@ -5659,11 +5659,11 @@ GS01SUMO-RII11-02-CTDMOR020,density,density,1000,1100,L2,kg m-3,GS01SUMO,RII11,C
 GS01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,6000,L1,dbar,GS01SUMO,RII11,CTDMOR020
 GS01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GS01SUMO,RII11,CTDMOR020
 GS01SUMO-RII11-02-CTDMOR020,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GS01SUMO,RII11,CTDMOR020
-GS01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS01SUMO,RII11,FLORDG031
+GS01SUMO-RII11-02-FLORDG031,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS01SUMO,RII11,FLORDG031
 GS01SUMO-RII11-02-FLORDG031,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS01SUMO,RII11,FLORDG031
-GS01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS01SUMO,RII11,FLORDG032
+GS01SUMO-RII11-02-FLORDG032,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS01SUMO,RII11,FLORDG032
 GS01SUMO-RII11-02-FLORDG032,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS01SUMO,RII11,FLORDG032
-GS01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS01SUMO,RII11,FLORDG033
+GS01SUMO-RII11-02-FLORDG033,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS01SUMO,RII11,FLORDG033
 GS01SUMO-RII11-02-FLORDG033,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS01SUMO,RII11,FLORDG033
 GS01SUMO-RII11-02-PCO2WC051,absorbance_ratio_434,absorbance_ratio_434,0,100000,L0,counts,GS01SUMO,RII11,PCO2WC051
 GS01SUMO-RII11-02-PCO2WC051,absorbance_ratio_620,absorbance_ratio_620,0,100000,L0,counts,GS01SUMO,RII11,PCO2WC051
@@ -5698,7 +5698,7 @@ GS01SUMO-SBD11-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GS01SUMO-SBD11-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GS01SUMO,SBD11,METBKA000
-GS01SUMO-SBD11-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GS01SUMO,SBD11,METBKA000
+GS01SUMO-SBD11-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GS01SUMO,SBD11,METBKA000
 GS01SUMO-SBD11-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GS01SUMO,SBD11,METBKA000
@@ -5734,7 +5734,7 @@ GS01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GS01SUMO,SBD11,NUTNRB000
 GS01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0,100,L2,m-1,GS01SUMO,SBD12,OPTAAD000
 GS01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0,100,L2,m-1,GS01SUMO,SBD12,OPTAAD000
 GS01SUMO-SBD12-02-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS01SUMO,SBD12,FLORTD000
-GS01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS01SUMO,SBD12,FLORTD000
+GS01SUMO-SBD12-02-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS01SUMO,SBD12,FLORTD000
 GS01SUMO-SBD12-02-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GS01SUMO,SBD12,FLORTD000
 GS01SUMO-SBD12-02-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS01SUMO,SBD12,FLORTD000
 GS01SUMO-SBD12-02-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS01SUMO,SBD12,FLORTD000
@@ -5776,7 +5776,7 @@ GS01SUMO-SBD12-06-METBKA000,sea_surface_conductivity,sea_surface_conductivity,0,
 GS01SUMO-SBD12-06-METBKA000,shortwave_irradiance,shortwave_irradiance,0,1000,L1,W m-2,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,eastward_wind_velocity,eastward_wind_velocity,-33,33,L0,m s-1,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,northward_wind_velocity,northward_wind_velocity,-33,33,L0,m s-1,GS01SUMO,SBD12,METBKA000
-GS01SUMO-SBD12-06-METBKA000,air_pressure,air_pressure,87000,108330,L1,Pa,GS01SUMO,SBD12,METBKA000
+GS01SUMO-SBD12-06-METBKA000,met_barpres,met_barpres,87000,108330,L1,Pa,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_current_direction,met_current_direction,0,360,,degrees,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_current_speed,met_current_speed,-3,3,,m s-1,GS01SUMO,SBD12,METBKA000
 GS01SUMO-SBD12-06-METBKA000,met_relwind_direction,met_relwind_direction,0,360,,degrees,GS01SUMO,SBD12,METBKA000
@@ -5851,7 +5851,7 @@ GS02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_pressure,ctdmo_seawater_pressure,0,60
 GS02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_temperature,ctdmo_seawater_temperature,-2,40,L1,deg_C,GS02HYPM,RIM01,CTDMOG039
 GS02HYPM-RIM01-02-CTDMOG039,ctdmo_seawater_conductivity,ctdmo_seawater_conductivity,0,6,L1,S m-1,GS02HYPM,RIM01,CTDMOG039
 GS02HYPM-WFP02-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS02HYPM,WFP02,FLORDL000
-GS02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS02HYPM,WFP02,FLORDL000
+GS02HYPM-WFP02-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS02HYPM,WFP02,FLORDL000
 GS02HYPM-WFP02-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS02HYPM,WFP02,FLORDL000
 GS02HYPM-WFP02-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS02HYPM,WFP02,FLORDL000
 GS02HYPM-WFP02-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GS02HYPM,WFP02,DOSTAL000
@@ -5877,7 +5877,7 @@ GS02HYPM-WFP02-05-VEL3DL000,vel3d_l_northward_velocity,vel3d_l_northward_velocit
 GS02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_ascending,vel3d_l_upward_velocity_ascending,-1,1,L1,m s-1,GS02HYPM,WFP02,VEL3DL000
 GS02HYPM-WFP02-05-VEL3DL000,vel3d_l_upward_velocity_descending,vel3d_l_upward_velocity_descending,-1,1,L1,m s-1,GS02HYPM,WFP02,VEL3DL000
 GS02HYPM-WFP03-01-FLORDL000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS02HYPM,WFP03,FLORDL000
-GS02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS02HYPM,WFP03,FLORDL000
+GS02HYPM-WFP03-01-FLORDL000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS02HYPM,WFP03,FLORDL000
 GS02HYPM-WFP03-01-FLORDL000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS02HYPM,WFP03,FLORDL000
 GS02HYPM-WFP03-01-FLORDL000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS02HYPM,WFP03,FLORDL000
 GS02HYPM-WFP03-03-DOSTAL000,dissolved_oxygen,dissolved_oxygen,0,400,L2,µmol kg-1,GS02HYPM,WFP03,DOSTAL000
@@ -6020,7 +6020,7 @@ GS03FLMA-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GS03FLMA-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GS03FLMA,RIS01,DOSTAD000
 GS03FLMA-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GS03FLMA,RIS01,PHSENF000
 GS03FLMA-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS03FLMA,RIS01,FLORTD000
-GS03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS03FLMA,RIS01,FLORTD000
+GS03FLMA-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS03FLMA,RIS01,FLORTD000
 GS03FLMA-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GS03FLMA,RIS01,FLORTD000
 GS03FLMA-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS03FLMA,RIS01,FLORTD000
 GS03FLMA-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS03FLMA,RIS01,FLORTD000
@@ -6142,7 +6142,7 @@ GS03FLMB-RIS01-03-DOSTAD000,estimated_oxygen_saturation,estimated_oxygen_saturat
 GS03FLMB-RIS01-03-DOSTAD000,optode_temperature,optode_temperature,-2,40,,deg_C,GS03FLMB,RIS01,DOSTAD000
 GS03FLMB-RIS01-04-PHSENF000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.3,8.5,L1,1,GS03FLMB,RIS01,PHSENF000
 GS03FLMB-RIS01-05-FLORTD000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,GS03FLMB,RIS01,FLORTD000
-GS03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,GS03FLMB,RIS01,FLORTD000
+GS03FLMB-RIS01-05-FLORTD000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,GS03FLMB,RIS01,FLORTD000
 GS03FLMB-RIS01-05-FLORTD000,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,GS03FLMB,RIS01,FLORTD000
 GS03FLMB-RIS01-05-FLORTD000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,GS03FLMB,RIS01,FLORTD000
 GS03FLMB-RIS01-05-FLORTD000,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,GS03FLMB,RIS01,FLORTD000
@@ -6419,7 +6419,7 @@ RS01SBPS-PC01A-4A-DOSTAD103,seawater_conductivity,seawater_conductivity,0,6,L1,S
 RS01SBPS-PC01A-4A-DOSTAD103,ctd_tc_oxygen,ctd_tc_oxygen,0,400,L1,umol L-1,RS01SBPS,PC01A,DOSTAD103
 RS01SBPS-PC01A-4B-PHSENA102,ph_seawater,ph_seawater,7.3,8.5,L1,1,RS01SBPS,PC01A,PHSENA102
 RS01SBPS-PC01A-4C-FLORDD103,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,RS01SBPS,PC01A,FLORDD103
-RS01SBPS-PC01A-4C-FLORDD103,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,RS01SBPS,PC01A,FLORDD103
+RS01SBPS-PC01A-4C-FLORDD103,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,RS01SBPS,PC01A,FLORDD103
 RS01SBPS-PC01A-4C-FLORDD103,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,RS01SBPS,PC01A,FLORDD103
 RS01SBPS-PC01A-4C-FLORDD103,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,RS01SBPS,PC01A,FLORDD103
 RS01SBPS-PC01A-4C-FLORDD103,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,RS01SBPS,PC01A,FLORDD103
@@ -6437,7 +6437,7 @@ RS01SBPS-SF01A-2A-DOFSTA102,seawater_pressure,seawater_pressure,0,6000,L1,dbar,R
 RS01SBPS-SF01A-2A-DOFSTA102,seawater_conductivity,seawater_conductivity,0,6,L1,S m-1,RS01SBPS,SF01A,DOFSTA102
 RS01SBPS-SF01A-2D-PHSENA101,ph_seawater,ph_seawater,7.3,8.5,L1,1,RS01SBPS,SF01A,PHSENA101
 RS01SBPS-SF01A-3A-FLORTD101,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,RS01SBPS,SF01A,FLORTD101
-RS01SBPS-SF01A-3A-FLORTD101,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,RS01SBPS,SF01A,FLORTD101
+RS01SBPS-SF01A-3A-FLORTD101,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,RS01SBPS,SF01A,FLORTD101
 RS01SBPS-SF01A-3A-FLORTD101,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,RS01SBPS,SF01A,FLORTD101
 RS01SBPS-SF01A-3A-FLORTD101,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,RS01SBPS,SF01A,FLORTD101
 RS01SBPS-SF01A-3A-FLORTD101,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,RS01SBPS,SF01A,FLORTD101
@@ -6505,7 +6505,7 @@ RS01SLBS-LJ01A-05-HPIESA101,hpies_bliley_frequency,hpies_bliley_frequency,4,200,
 RS01SLBS-LJ01A-05-HPIESA101,hpies_data_validity,hpies_data_validity,,,,1,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_average_travel_time,hpies_average_travel_time,,,,10 useconds,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_average_pressure,hpies_average_pressure,,,,0.001 dbar,RS01SLBS,LJ01A,HPIESA101
-RS01SLBS-LJ01A-05-HPIESA101,hpies_average_temperature,hpies_average_temperature,-2,40,,0.001‘_ Celsius,RS01SLBS,LJ01A,HPIESA101
+RS01SLBS-LJ01A-05-HPIESA101,hpies_average_temperature,hpies_average_temperature,-2,40,,0.001ï_ Celsius,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_last_pressure,hpies_last_pressure,,,,Hz,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_last_temperature,hpies_last_temperature,,,,Hz,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_travel_time1_L1,hpies_travel_time1_L1,0.65,8.7,L1,seconds,RS01SLBS,LJ01A,HPIESA101
@@ -6666,7 +6666,7 @@ RS03AXBS-LJ03A-05-HPIESA301,hpies_bliley_frequency,hpies_bliley_frequency,4,200,
 RS03AXBS-LJ03A-05-HPIESA301,hpies_data_validity,hpies_data_validity,,,,1,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_average_travel_time,hpies_average_travel_time,,,,10 useconds,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_average_pressure,hpies_average_pressure,,,,0.001 dbar,RS03AXBS,LJ03A,HPIESA301
-RS03AXBS-LJ03A-05-HPIESA301,hpies_average_temperature,hpies_average_temperature,-2,40,,0.001‘_ Celsius,RS03AXBS,LJ03A,HPIESA301
+RS03AXBS-LJ03A-05-HPIESA301,hpies_average_temperature,hpies_average_temperature,-2,40,,0.001ï_ Celsius,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_last_pressure,hpies_last_pressure,,,,Hz,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_last_temperature,hpies_last_temperature,,,,Hz,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_travel_time1_L1,hpies_travel_time1_L1,0.65,8.7,L1,seconds,RS03AXBS,LJ03A,HPIESA301
@@ -6813,7 +6813,7 @@ RS03AXPS-PC03A-4A-DOSTAD303,seawater_conductivity,seawater_conductivity,0,6,L1,S
 RS03AXPS-PC03A-4A-DOSTAD303,ctd_tc_oxygen,ctd_tc_oxygen,0,400,L1,umol L-1,RS03AXPS,PC03A,DOSTAD303
 RS03AXPS-PC03A-4B-PHSENA302,ph_seawater,ph_seawater,7.3,8.5,L1,1,RS03AXPS,PC03A,PHSENA302
 RS03AXPS-PC03A-4C-FLORDD303,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,RS03AXPS,PC03A,FLORDD303
-RS03AXPS-PC03A-4C-FLORDD303,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,RS03AXPS,PC03A,FLORDD303
+RS03AXPS-PC03A-4C-FLORDD303,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,RS03AXPS,PC03A,FLORDD303
 RS03AXPS-PC03A-4C-FLORDD303,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,RS03AXPS,PC03A,FLORDD303
 RS03AXPS-PC03A-4C-FLORDD303,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,RS03AXPS,PC03A,FLORDD303
 RS03AXPS-PC03A-4C-FLORDD303,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,RS03AXPS,PC03A,FLORDD303
@@ -6831,7 +6831,7 @@ RS03AXPS-SF03A-2A-DOFSTA302,seawater_pressure,seawater_pressure,0,6000,L1,dbar,R
 RS03AXPS-SF03A-2A-DOFSTA302,seawater_conductivity,seawater_conductivity,0,6,L1,S m-1,RS03AXPS,SF03A,DOFSTA302
 RS03AXPS-SF03A-2D-PHSENA301,ph_seawater,ph_seawater,7.3,8.5,L1,1,RS03AXPS,SF03A,PHSENA301
 RS03AXPS-SF03A-3A-FLORTD301,seawater_scattering_coefficient,seawater_scattering_coefficient,,,L2,m-1,RS03AXPS,SF03A,FLORTD301
-RS03AXPS-SF03A-3A-FLORTD301,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,‘µg L-1,RS03AXPS,SF03A,FLORTD301
+RS03AXPS-SF03A-3A-FLORTD301,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,0,50,L1,µg L-1,RS03AXPS,SF03A,FLORTD301
 RS03AXPS-SF03A-3A-FLORTD301,fluorometric_cdom,fluorometric_cdom,0,375,L1,ppb,RS03AXPS,SF03A,FLORTD301
 RS03AXPS-SF03A-3A-FLORTD301,total_volume_scattering_coefficient,total_volume_scattering_coefficient,,,L1,m-1 sr-1,RS03AXPS,SF03A,FLORTD301
 RS03AXPS-SF03A-3A-FLORTD301,optical_backscatter,optical_backscatter,0.0003,1,L2,m-1,RS03AXPS,SF03A,FLORTD301
