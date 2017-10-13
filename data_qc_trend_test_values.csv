@@ -14,7 +14,7 @@ CE01ISSM-MFD35-02-PRESFA000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CE01ISSM-MFD35-02-PRESFA000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CE01ISSM,MFD35,PRESFA000
-CE01ISSM-MFD35-02-PRESFA000,absolute_pressure,absolute_pressure,,,,L0,psi,CE01ISSM,MFD35,PRESFA000
+CE01ISSM-MFD35-02-PRESFA000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,ptemp_frequency,ptemp_frequency,,,,,Hz,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-04-ADCPTM000,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,365,1,3,L1,dB,CE01ISSM,MFD35,ADCPTM000
 CE01ISSM-MFD35-04-ADCPTM000,corrected_echo_intensity_beam2,corrected_echo_intensity_beam2,365,1,3,L1,dB,CE01ISSM,MFD35,ADCPTM000
@@ -1174,7 +1174,7 @@ CE06ISSM-MFD35-02-PRESFA000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CE06ISSM-MFD35-02-PRESFA000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CE06ISSM,MFD35,PRESFA000
-CE06ISSM-MFD35-02-PRESFA000,absolute_pressure,absolute_pressure,,,,L0,psi,CE06ISSM,MFD35,PRESFA000
+CE06ISSM-MFD35-02-PRESFA000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,ptemp_frequency,ptemp_frequency,,,,,Hz,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-04-ADCPTM000,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,365,1,3,L1,dB,CE06ISSM,MFD35,ADCPTM000
 CE06ISSM-MFD35-04-ADCPTM000,corrected_echo_intensity_beam2,corrected_echo_intensity_beam2,365,1,3,L1,dB,CE06ISSM,MFD35,ADCPTM000
@@ -1366,7 +1366,7 @@ CE07SHSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CE07SHSM-MFD35-02-PRESFB000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CE07SHSM,MFD35,PRESFB000
-CE07SHSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,,,,L0,psi,CE07SHSM,MFD35,PRESFB000
+CE07SHSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,ptemp_frequency,ptemp_frequency,,,,,Hz,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-04-ADCPTC000,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,365,1,3,L1,dB,CE07SHSM,MFD35,ADCPTC000
 CE07SHSM-MFD35-04-ADCPTC000,corrected_echo_intensity_beam2,corrected_echo_intensity_beam2,365,1,3,L1,dB,CE07SHSM,MFD35,ADCPTC000
@@ -1604,7 +1604,7 @@ CE09OSSM-MFD35-02-PRESFC000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CE09OSSM-MFD35-02-PRESFC000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CE09OSSM,MFD35,PRESFC000
-CE09OSSM-MFD35-02-PRESFC000,absolute_pressure,absolute_pressure,,,,L0,psi,CE09OSSM,MFD35,PRESFC000
+CE09OSSM-MFD35-02-PRESFC000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,ptemp_frequency,ptemp_frequency,,,,,Hz,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-04-ADCPSJ000,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,365,1,3,L1,dB,CE09OSSM,MFD35,ADCPSJ000
 CE09OSSM-MFD35-04-ADCPSJ000,corrected_echo_intensity_beam2,corrected_echo_intensity_beam2,365,1,3,L1,dB,CE09OSSM,MFD35,ADCPSJ000
@@ -1789,7 +1789,7 @@ CP01CNSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CP01CNSM-MFD35-02-PRESFB000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CP01CNSM,MFD35,PRESFB000
-CP01CNSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,,,,L0,psi,CP01CNSM,MFD35,PRESFB000
+CP01CNSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,ptemp_frequency,ptemp_frequency,,,,,Hz,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-04-VELPTA000,eastward_velocity,eastward_velocity,365,1,3,L1,m s-1,CP01CNSM,MFD35,VELPTA000
 CP01CNSM-MFD35-04-VELPTA000,northward_velocity,northward_velocity,365,1,3,L1,m s-1,CP01CNSM,MFD35,VELPTA000
@@ -2201,7 +2201,7 @@ CP03ISSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CP03ISSM-MFD35-02-PRESFB000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CP03ISSM,MFD35,PRESFB000
-CP03ISSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,,,,L0,psi,CP03ISSM,MFD35,PRESFB000
+CP03ISSM-MFD35-02-PRESFB000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,ptemp_frequency,ptemp_frequency,,,,,Hz,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-04-VELPTA000,eastward_velocity,eastward_velocity,365,1,3,L1,m s-1,CP03ISSM,MFD35,VELPTA000
 CP03ISSM-MFD35-04-VELPTA000,northward_velocity,northward_velocity,365,1,3,L1,m s-1,CP03ISSM,MFD35,VELPTA000
@@ -2404,7 +2404,7 @@ CP04OSSM-MFD35-02-PRESFC000,presf_tide_pressure,presf_tide_pressure,,,,L1,dbar,C
 CP04OSSM-MFD35-02-PRESFC000,presf_tide_temperature,presf_tide_temperature,,,,L1,deg_C,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,presf_wave_burst_pressure,presf_wave_burst_pressure,,,,L1,dbar,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,absolute_pressure_burst,absolute_pressure_burst,,,,L0,psi,CP04OSSM,MFD35,PRESFC000
-CP04OSSM-MFD35-02-PRESFC000,absolute_pressure,absolute_pressure,,,,L0,psi,CP04OSSM,MFD35,PRESFC000
+CP04OSSM-MFD35-02-PRESFC000,absolute_pressure,absolute_pressure,365,1,3,L0,psi,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,ptemp_frequency,ptemp_frequency,,,,,Hz,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-04-VELPTB000,eastward_velocity,eastward_velocity,365,1,3,L1,m s-1,CP04OSSM,MFD35,VELPTB000
 CP04OSSM-MFD35-04-VELPTB000,northward_velocity,northward_velocity,365,1,3,L1,m s-1,CP04OSSM,MFD35,VELPTB000
@@ -6501,7 +6501,7 @@ RS01SLBS-LJ01A-05-HPIESA101,hpies_travel_time4,hpies_travel_time4,365,1,3,L0,10 
 RS01SLBS-LJ01A-05-HPIESA101,hpies_pressure,hpies_pressure,,,,L0,0.001 dbar,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_temperature,hpies_temperature,,,,,mdeg_C,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_bliley_temperature,hpies_bliley_temperature,,,,,millidegrees Celsius,RS01SLBS,LJ01A,HPIESA101
-RS01SLBS-LJ01A-05-HPIESA101,hpies_bliley_frequency,hpies_bliley_frequency,,,,,Hz,RS01SLBS,LJ01A,HPIESA101
+RS01SLBS-LJ01A-05-HPIESA101,hpies_bliley_frequency,hpies_bliley_frequency,365,1,3,,Hz,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_data_validity,hpies_data_validity,,,,,1,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_average_travel_time,hpies_average_travel_time,,,,,10 useconds,RS01SLBS,LJ01A,HPIESA101
 RS01SLBS-LJ01A-05-HPIESA101,hpies_average_pressure,hpies_average_pressure,,,,,0.001 dbar,RS01SLBS,LJ01A,HPIESA101
@@ -6555,7 +6555,7 @@ RS01SLBS-LJ01A-12-DOSTAD101,ctd_tc_oxygen,ctd_tc_oxygen,,,,L1,umol L-1,RS01SLBS,
 RS01SLBS-MJ01A-06-PRESTA101,pressure_temp,pressure_temp,,,,,deg_C,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-06-PRESTA101,date_time_str,date_time_str,,,,,1,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-06-PRESTA101,seafloor_pressure,seafloor_pressure,365,1,3,L1,dbar,RS01SLBS,MJ01A,PRESTA101
-RS01SLBS-MJ01A-06-PRESTA101,absolute_pressure,absolute_pressure,,,,L0,psi,RS01SLBS,MJ01A,PRESTA101
+RS01SLBS-MJ01A-06-PRESTA101,absolute_pressure,absolute_pressure,365,1,3,L0,psi,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-12-VEL3DB101,temperature,temperature,,,,,deg_C,RS01SLBS,MJ01A,VEL3DB101
 RS01SLBS-MJ01A-12-VEL3DB101,turbulent_velocity_east,turbulent_velocity_east,,,,L0,mm s-1,RS01SLBS,MJ01A,VEL3DB101
 RS01SLBS-MJ01A-12-VEL3DB101,turbulent_velocity_north,turbulent_velocity_north,,,,L0,mm s-1,RS01SLBS,MJ01A,VEL3DB101
@@ -6568,7 +6568,7 @@ RS01SLBS-MJ01A-12-VEL3DB101,upward_turbulent_velocity,upward_turbulent_velocity,
 RS01SUM1-LJ01B-09-PRESTB102,pressure_temp,pressure_temp,,,,,deg_C,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-09-PRESTB102,date_time_str,date_time_str,,,,,1,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-09-PRESTB102,seafloor_pressure,seafloor_pressure,365,1,3,L1,dbar,RS01SUM1,LJ01B,PRESTB102
-RS01SUM1-LJ01B-09-PRESTB102,absolute_pressure,absolute_pressure,,,,L0,psi,RS01SUM1,LJ01B,PRESTB102
+RS01SUM1-LJ01B-09-PRESTB102,absolute_pressure,absolute_pressure,365,1,3,L0,psi,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-12-VEL3DB104,temperature,temperature,,,,,deg_C,RS01SUM1,LJ01B,VEL3DB104
 RS01SUM1-LJ01B-12-VEL3DB104,turbulent_velocity_east,turbulent_velocity_east,,,,L0,mm s-1,RS01SUM1,LJ01B,VEL3DB104
 RS01SUM1-LJ01B-12-VEL3DB104,turbulent_velocity_north,turbulent_velocity_north,,,,L0,mm s-1,RS01SUM1,LJ01B,VEL3DB104
@@ -6662,7 +6662,7 @@ RS03AXBS-LJ03A-05-HPIESA301,hpies_travel_time4,hpies_travel_time4,365,1,3,L0,10 
 RS03AXBS-LJ03A-05-HPIESA301,hpies_pressure,hpies_pressure,,,,L0,0.001 dbar,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_temperature,hpies_temperature,,,,,mdeg_C,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_bliley_temperature,hpies_bliley_temperature,,,,,millidegrees Celsius,RS03AXBS,LJ03A,HPIESA301
-RS03AXBS-LJ03A-05-HPIESA301,hpies_bliley_frequency,hpies_bliley_frequency,,,,,Hz,RS03AXBS,LJ03A,HPIESA301
+RS03AXBS-LJ03A-05-HPIESA301,hpies_bliley_frequency,hpies_bliley_frequency,365,1,3,,Hz,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_data_validity,hpies_data_validity,,,,,1,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_average_travel_time,hpies_average_travel_time,,,,,10 useconds,RS03AXBS,LJ03A,HPIESA301
 RS03AXBS-LJ03A-05-HPIESA301,hpies_average_pressure,hpies_average_pressure,,,,,0.001 dbar,RS03AXBS,LJ03A,HPIESA301
@@ -6716,7 +6716,7 @@ RS03AXBS-LJ03A-12-DOSTAD301,ctd_tc_oxygen,ctd_tc_oxygen,,,,L1,umol L-1,RS03AXBS,
 RS03AXBS-MJ03A-06-PRESTA301,pressure_temp,pressure_temp,,,,,deg_C,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-06-PRESTA301,date_time_str,date_time_str,,,,,1,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-06-PRESTA301,seafloor_pressure,seafloor_pressure,365,1,3,L1,dbar,RS03AXBS,MJ03A,PRESTA301
-RS03AXBS-MJ03A-06-PRESTA301,absolute_pressure,absolute_pressure,,,,L0,psi,RS03AXBS,MJ03A,PRESTA301
+RS03AXBS-MJ03A-06-PRESTA301,absolute_pressure,absolute_pressure,365,1,3,L0,psi,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-12-VEL3DB301,temperature,temperature,,,,,deg_C,RS03AXBS,MJ03A,VEL3DB301
 RS03AXBS-MJ03A-12-VEL3DB301,turbulent_velocity_east,turbulent_velocity_east,,,,L0,mm s-1,RS03AXBS,MJ03A,VEL3DB301
 RS03AXBS-MJ03A-12-VEL3DB301,turbulent_velocity_north,turbulent_velocity_north,,,,L0,mm s-1,RS03AXBS,MJ03A,VEL3DB301
