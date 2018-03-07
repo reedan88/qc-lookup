@@ -1,0 +1,31 @@
+sudo: false
+language: python
+python:
+  - "2.7"
+#notifications:
+#  slack: ooi-dev:e6WpBt9NHHw1YJjRKuYHkhYr
+
+# Setup anaconda
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b
+  - export PATH=/home/travis/miniconda2/bin:$PATH
+  - conda update --yes conda
+
+# Install packages
+install:
+  - conda install --yes python=$TRAVIS_PYTHON_VERSION nose
+
+# get other repos
+before_script:
+  - cd ..
+  - git clone https://github.com/oceanobservatories/preload-database
+  - git clone https://github.com/ooi-integration/asset-management
+
+# command to run tests
+script:
+  - cd ${TRAVIS_BUILD_DIR}/test
+  - ./setuptest.sh
+  - cd ..
+  - nosetests -a UNIT test
