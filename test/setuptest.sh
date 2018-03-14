@@ -18,11 +18,10 @@ done
 sort -u *csv.refdes > refdes.txt
 
 # remove all the CSV links
-ls *csv | awk '{print "unlink " $0}' > csvunlink
-source csvunlink
+find . -type l -name "*.csv" -exec unlink {} \;
 
 # cleanup temp files
-rm *.refdes amdeploy csvunlink
+rm *.refdes amdeploy
 
 ##################################################################
 # Obtain the units, types and parameters from preload-database.sql
