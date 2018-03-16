@@ -2,59 +2,40 @@
 #
 # Copyright 2018 Raytheon Co.
 
+import glob
 import io
 import os
+import pandas as pd
+import re
 import unittest
 from nose.plugins.attrib import attr
 
+
 @attr('UNIT')
 class GeneralUnitTest(unittest.TestCase):
+    # declare misc global objects
+    _encoding = 'utf-8'
+
+    _validate_dictionary  = {} # populated in setUp
+    _validation_positions = {'_Array ID': (0, 8),
+                             '_Platform ID': (9, 14),
+                             '_Instrument': (18, 27)
+                            }
+
     # declare the global validation objects
-    _refdes = set()
+    _reference_designators = set()
+    _parameters = set()
     _units = set()
-    _parameters = {}
-    _types = {}
 
-    def _getpath(self, filename):
-        return os.path.join(os.path.dirname(__file__), filename)
-    
-    def setUp(self):
-        # initialize the global objects once
-        if not self._refdes:
-            with io.open(self._getpath('refdes.txt'),mode='rt',encoding='iso-8859-1') as f:
-                for line in f:
-                    self._refdes.add(line.strip())
-        if not self._units:
-            self._units.add('') # empty value is valid
-            with io.open(self._getpath('unit.txt'),mode='rt',encoding='iso-8859-1') as f:
-                for line in f:
-                    self._units.add(line.strip())
-        if not self._parameters:
-            with io.open(self._getpath('parameter.txt'),mode='rt',encoding='iso-8859-1') as f:
-                for line in f:
-                    parts = line.strip().split(':')
-                    self._parameters[parts[0]] = parts[1]
-        if not self._types:
-            with io.open(self._getpath('type.txt'),mode='rt',encoding='iso-8859-1') as f:
-                for line in f:
-                    parts = line.strip().split(':')
-                    self._types[parts[0]] = parts[1]
+    @staticmethod
+    def _get_path(file_name):
+        return os.path.join(os.path.dirname(__file__), file_name)
 
-    def _get_parameters(self):
-        return self._parameters
-
-    def _get_ref_designators(self):
-        return self._refdes
-
-    def _get_types(self):
-        return self._types
-
-    def _get_units(self):
-        return self._units
-
-    def _is_empty_or_numeric(self, value):
+    @staticmethod
+    def _is_empty_or_numeric(value):
         # if it's empty it's ok
         if len(value) == 0: return True
+
         # any integer or float value will succeed
         try:
             float(value)
@@ -63,229 +44,210 @@ class GeneralUnitTest(unittest.TestCase):
 
         return True
 
-    def _get_validation_collection(self):
-        return {'ReferenceDesignator' : self._get_ref_designators(),
-                'ParameterID_R'       : self._get_parameters(),
-                'ParameterID_T'       : self._get_parameters(),
-                '_Units'              : self._get_units(),
-                '_DataLevel'          : ('','L0','L1','L2')
-               }
+    def setUp(self):
+        # initialize the global objects once
+        if not self._reference_designators:
+            for file_name in glob.glob("*_Deploy.csv"):
+                file = pd.read_csv(self._get_path(file_name), encoding=self._encoding, na_filter=False)
+                header = list(file)
+                # the placement of this column varies from one CSV to another
+                column_index = header.index('Reference Designator')
+                # the "i" variable isn't used but is needed to catch the returned value
+                for i,line in file.iterrows():
+                    self._reference_designators.add(line[column_index])
+
+        if not self._units:
+            unit_regex = re.compile(r'INSERT INTO "unit" VALUES\(\d+,\'(.*)\'\)')
+            with io.open(self._get_path('preload_database.sql'), mode='rt', encoding=self._encoding) as file:
+                for line in file:
+                    match_it = re.search(unit_regex, line)
+                    if match_it:
+                        self._units.add(match_it.group(1))
+            self._units.add('') # empty value is valid
+
+        if not self._parameters:
+            # this regex extracts all the values after the initial numerical value
+            param_regex = re.compile(r'INSERT INTO "parameter" VALUES\(\d+,\'(.*)\',.*')
+            with io.open(self._get_path('preload_database.sql'), mode='rt', encoding=self._encoding) as file:
+                for line in file:
+                    match_it = re.search(param_regex, line)
+                    if match_it:
+                        # only the value up to the 1st tick-mark is needed
+                        name = match_it.group(1).split("'")
+                        self._parameters.add(name[0])
+
+        if not self._validate_dictionary:
+            _validate_dictionary = {'ReferenceDesignator': self._reference_designators,
+                                    'ParameterID_R': self._parameters,
+                                    'ParameterID_T': self._parameters,
+                                    '_Units': self._units,
+                                    '_DataLevel': ('', 'L0', 'L1', 'L2')
+                                   }
+
+    def _get_parameters(self):
+        return self._parameters
+
+    def _get_ref_designators(self):
+        return self._reference_designators
+
+    def _get_units(self):
+        return self._units
+
+    def _get_validation_dictionary(self):
+        return self._validate_dictionary
 
     def _get_validation_positions(self):
-        return {'_Array ID'    : (0,8),
-                '_Platform ID' : (9,14),
-                '_Instrument'  : (18,27)
-               }
+        return self._validation_positions
 
-    def _validate_line(self, header, flds_to_validate, line):
-        validation_coll = self._get_validation_collection()
-        validation_pos = self._get_validation_positions()
+    def _validate_line(self, header, fields_to_validate, line):
+        validation_dictionary = self._get_validation_dictionary()
+        validation_positions  = self._get_validation_positions()
 
-        invalid = []
-        parts = line.split('|')
-        for index,part in enumerate(parts):
-            if index in flds_to_validate:
+        # If this remains empty the line is valid
+        invalid_entries = []
+        for index,column in enumerate(line):
+            if index in fields_to_validate:
                 # the common fields validated by a collection of values
                 #  (ReferenceDesignator, _ParameterID_R/T, _Units)
-                if header[index] in validation_coll:
-                    vcoll = validation_coll[header[index]]
-                    if part not in vcoll:
-                        invalid.append(header[index] + ': [' + part + ']')
+                if header[index] in validation_dictionary:
+                    validation_collection = validation_dictionary[header[index]]
+                    if column not in validation_collection:
+                        invalid_entries.append(header[index] + ': [' + column + ']')
                 # the common fields validated by a portion of the ReferenceDesignator field
-                elif header[index] in validation_pos:
-                    beg,end = validation_pos[header[index]]
-                    refdesidx = header.index('ReferenceDesignator')
-                    if part != parts[refdesidx][beg:end]:
-                        invalid.append(header[index] + ': [' + part + ']')
+                elif header[index] in validation_positions:
+                    begin,end = validation_positions[header[index]]
+                    column_index = header.index('ReferenceDesignator')
+                    if column != line[column_index][begin:end]:
+                        invalid_entries.append(header[index] + ': [' + column + ']')
                 # the global and gradient fields
                 elif header[index] in ('GlobalRangeMin','GlobalRangeMax','GradientTest_mindx'):
-                    if not self._is_empty_or_numeric(part):
-                        invalid.append(header[index] + ': [' + part + ']')
+                    if not self._is_empty_or_numeric(column):
+                        invalid_entries.append(header[index] + ': [' + str(column) + ']')
                 # the spike fields
                 elif header[index] in ('SpikeTest_ACC','SpikeTest_N','SpikeTest_L'):
-                    if not self._is_empty_or_numeric(part):
-                        invalid.append(header[index] + ': [' + part + ']')
+                    if not self._is_empty_or_numeric(column):
+                        invalid_entries.append(header[index] + ': [' + str(column) + ']')
                 # the stuck fields
                 elif header[index] in ('StuckValueTest_ResolutionR','StuckValueTest_NumRepeatValues'):
-                    if not self._is_empty_or_numeric(part):
-                        invalid.append(header[index] + ': [' + part + ']')
+                    if not self._is_empty_or_numeric(column):
+                        invalid_entries.append(header[index] + ': [' + str(column) + ']')
                 # the trend fields
                 elif header[index] in ('TrendTest_TimeIntLengthDays','TrendTest_PolynomialOrder','TrendTest_nstd'):
-                    if not self._is_empty_or_numeric(part):
-                        invalid.append(header[index] + ': [' + part + ']')
+                    if not self._is_empty_or_numeric(column):
+                        invalid_entries.append(header[index] + ': [' + str(column) + ']')
 
-        return invalid
+        return invalid_entries
 
-    # ###########################################
-    # verify the files needed for the tests exist
-    # ###########################################
+    def test_validate_global_range_file(self):
+        valid_file = True # file is valid until proven otherwise
+        # this gets the file's header line
+        f = pd.read_csv(self._get_path('../data_qc_global_range_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
+        # all the numbers of the fields in each data record needing validation
+        fields_to_validate = range(len(header)) # validate all fields
 
-    # the PSVs are built from the CSVs in setuptest.sh to make them pipe-separated files
-    # due to the "local" file using commas inside the fields of a handful of records
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Global record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
 
-    def test_globalFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_global_range_values.psv')))
+        self.assertTrue(valid_file)
 
-    def test_gradientFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_gradient_test_values.psv')))
-
-    def test_localFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_local_range_values.psv')))
-
-    def test_spikeFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_spike_test_values.psv')))
-
-    def test_stuckFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_stuck_test_values.psv')))
-
-    def test_trendFileExists(self):
-        self.assertTrue(os.path.exists(self._getpath('data_qc_trend_test_values.psv')))
-
-    # these files are generated within setuptest.sh from the asset-management
-    # and preload-database repositories
-
-    def test_parameterFileExistsAndIsPopulated(self):
-        self.assertTrue(os.path.exists(self._getpath('parameter.txt')))
-        parameters = self._get_parameters()
-        self.assertTrue(len(parameters) > 0)
-
-    def test_refdesFileExistsAndIsPopulated(self):
-        self.assertTrue(os.path.exists(self._getpath('refdes.txt')))
-        refdes = self._get_ref_designators()
-        self.assertTrue(len(refdes) > 0)
-
-    def test_typeFileExistsAndIsPopulated(self):
-        self.assertTrue(os.path.exists(self._getpath('type.txt')))
-        types = self._get_types()
-        self.assertTrue(len(types) > 0)
-
-    def test_unitFileExistsAndIsPopulated(self):
-        self.assertTrue(os.path.exists(self._getpath('unit.txt')))
-        units = self._get_units()
-        self.assertTrue(len(units) > 0)
-
-    def test_validateGlobalRangeFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
+    def test_validate_gradient_test_file(self):
+        valid_file = True # file is valid until proven otherwise
+        # this gets the file's header line
+        f = pd.read_csv(self._get_path('../data_qc_gradient_test_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
         # the numbers of the fields in each data record needing validation
-        flds_to_validate = None # established from 1st record
+        fields_to_validate = list(range(3) + range(8,12)) # validate common fields
+        fields_to_validate.append(5)                      # and GradientTest_mindx
 
-        with io.open(self._getpath('data_qc_global_range_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header is None:
-                    header = line.split('|')
-                    flds_to_validate = range(len(header)) # validate all fields
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Global record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Gradient record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
 
-    def test_validateGradientTestFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
+        self.assertTrue(valid_file)
+
+    def test_validate_local_range_file(self):
+        valid_file = True # file is valid until proven otherwise
+        f = pd.read_csv(self._get_path('../data_qc_local_range_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
         # the numbers of the fields in each data record needing validation
-        flds_to_validate = list(range(3) + range(8,12)) # common fields
-        flds_to_validate.append(5)                      # and GradientTest_mindx
+        fields_to_validate = list(range(3) + range(8,12)) # validate common fields
 
-        with io.open(self._getpath('data_qc_gradient_test_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header == None:
-                    header = line.split('|')
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Gradient record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Local record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
 
-    def test_validateLocalRangeFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
-        # the numbers of the fields in each data record needing validation
-        flds_to_validate = list(range(3) + range(8,12)) # common fields
+        self.assertTrue(valid_file)
 
-        with io.open(self._getpath('data_qc_local_range_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header == None:
-                    header = line.split('|')
-                    flds_to_validate = range(len(header)) # validate all fields
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Local record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+    def test_validate_spike_test_file(self):
+        valid_file = True # file is valid until proven otherwise
+        f = pd.read_csv(self._get_path('../data_qc_spike_test_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
+        fields_to_validate = range(len(header)) # validate all fields
 
-    def test_validateSpikeTestFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
-        # the numbers of the fields in each data record needing validation
-        flds_to_validate = None # established from 1st record
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Spike record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
 
-        with io.open(self._getpath('data_qc_spike_test_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header == None:
-                    header = line.split('|')
-                    flds_to_validate = range(len(header)) # validate all fields
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Spike record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+        self.assertTrue(valid_file)
 
-    def test_validateStuckTestFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
-        # the numbers of the fields in each data record needing validation
-        flds_to_validate = None # established from 1st record
+    def test_validate_stuck_test_file(self):
+        valid_file = True # file is valid until proven otherwise
+        f = pd.read_csv(self._get_path('../data_qc_stuck_test_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
+        fields_to_validate = range(len(header)) # validate all fields
 
-        with io.open(self._getpath('data_qc_stuck_test_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header == None:
-                    header = line.split('|')
-                    flds_to_validate = range(len(header)) # validate all fields
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Stuck record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Stuck record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
 
-    def test_validateTrendTestFile(self):
-        validfile = True # file is valid until proven otherwise
-        header = None # obtained from 1st record
-        # the numbers of the fields in each data record needing validation
-        flds_to_validate = None # established from 1st record
+        self.assertTrue(valid_file)
 
-        with io.open(self._getpath('data_qc_trend_test_values.psv'),mode='rt',encoding='iso-8859-1') as f:
-            for index,l in enumerate(f):
-                line = l.strip() # drop the trailing newline
-                # the 1st record contains the headers
-                if header == None:
-                    header = line.split('|')
-                    flds_to_validate = range(len(header)) # validate all fields
-                    continue
-                invalidlist = self._validate_line(header, flds_to_validate, line)
-                if invalidlist:
-                    validfile = False
-                    print('Trend record invalid ' + str(index+1) + ': ' + line)
-                    print(' invalid fields: ', invalidlist)
-        self.assertTrue(validfile)
+    def test_validate_trend_test_file(self):
+        valid_file = True # file is valid until proven otherwise
+        f = pd.read_csv(self._get_path('../data_qc_trend_test_values.csv'),
+                        encoding=self._encoding, na_filter=False)
+        # this gets the file's header line
+        header = list(f)
+        fields_to_validate = range(len(header)) # validate all fields
+
+        for index,line in f.iterrows():
+            invalid_list = self._validate_line(header, fields_to_validate, line)
+            # if it contains entries the file is invalid
+            if invalid_list:
+                valid_file = False
+                print('Trend record invalid ' + str(index+1) + ', ')
+                print(' invalid fields: ', invalid_list)
+
+        self.assertTrue(valid_file)
