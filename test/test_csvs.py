@@ -34,7 +34,8 @@ class GeneralUnitTest(unittest.TestCase):
     @staticmethod
     def _is_empty_or_numeric(value):
         # if it's empty it's ok
-        if len(value) == 0: return True
+        if len(value) == 0:
+            return True
 
         # any integer or float value will succeed
         try:
