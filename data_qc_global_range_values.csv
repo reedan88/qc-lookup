@@ -2117,7 +2117,7 @@ CP02PMUI-RII01-02-ADCPTG010,corrected_echo_intensity_beam4,corrected_echo_intens
 CP02PMUI-RII01-02-ADCPTG010,eastward_seawater_velocity,adcps_jln_eastward_seawater_velocity2,-3.0,3.0,L1,m s-1,CP02PMUI,RII01,ADCPTG010
 CP02PMUI-RII01-02-ADCPTG010,northward_seawater_velocity,adcps_jln_northward_seawater_velocity2,-3.0,3.0,L1,m s-1,CP02PMUI,RII01,ADCPTG010
 CP02PMUI-RII01-02-ADCPTG010,upward_seawater_velocity,adcps_jln_upward_seawater_velocity2,-1.0,1.0,L1,m s-1,CP02PMUI,RII01,ADCPTG010
-CP02PMUI-RII01-02-ADCPTG010,error_seawater_velocity,adcps_jln_error_seawater_velocity2,-1.0,1.0,L1,m s-1,CP02PMUI,RII01,ADCPTG010
+CP02PMUI-RII01-02-ADCPTG010,error_seawater_velocity,adcps_jln_error_velocity2,-1.0,1.0,L1,m s-1,CP02PMUI,RII01,ADCPTG010
 CP02PMUI-RII01-02-ADCPTG010,salinity,salinity,,,,1,CP02PMUI,RII01,ADCPTG010
 CP02PMUI-RII01-02-ADCPTG010,water_velocity_east,water_velocity_east,-3000.0,3000.0,L0,mm s-1,CP02PMUI,RII01,ADCPTG010
 CP02PMUI-RII01-02-ADCPTG010,water_velocity_north,water_velocity_north,-3000.0,3000.0,L0,mm s-1,CP02PMUI,RII01,ADCPTG010
