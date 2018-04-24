@@ -7,7 +7,6 @@ CE01ISSM-MFD35-01-VEL3DD000,turbulent_velocity_east,turbulent_velocity_east,-300
 CE01ISSM-MFD35-01-VEL3DD000,turbulent_velocity_north,turbulent_velocity_north,-3000.0,3000.0,L0,mm s-1,CE01ISSM,MFD35,VEL3DD000
 CE01ISSM-MFD35-01-VEL3DD000,turbulent_velocity_vertical,turbulent_velocity_vertical,-1000.0,1000.0,L0,mm s-1,CE01ISSM,MFD35,VEL3DD000
 CE01ISSM-MFD35-01-VEL3DD000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CE01ISSM,MFD35,VEL3DD000
-CE01ISSM-MFD35-02-PRESFA000,pressure_temp,pressure_temp,,,,ºC,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CE01ISSM,MFD35,PRESFA000
 CE01ISSM-MFD35-02-PRESFA000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CE01ISSM,MFD35,PRESFA000
@@ -123,7 +122,6 @@ CE01ISSM-RID16-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE01ISSM-RID16-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE01ISSM,RID16,NUTNRB000
 CE01ISSM-RID16-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE01ISSM,RID16,NUTNRB000
 CE01ISSM-RID16-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE01ISSM,RID16,NUTNRB000
-CE01ISSM-RID16-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE01ISSM,RID16,NUTNRB000
 CE01ISSM-RID16-07-NUTNRB000,humidity,humidity,,,,%,CE01ISSM,RID16,NUTNRB000
 CE01ISSM-RID16-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE01ISSM,RID16,SPKIRB000
 CE01ISSM-SBD17-04-VELPTA000,eastward_velocity,eastward_velocity,-3.0,3.0,L1,m s-1,CE01ISSM,SBD17,VELPTA000
@@ -174,7 +172,6 @@ CE01ISSP-SP001-06-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-06-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-06-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-06-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE01ISSP,SP001,NUTNRJ000
-CE01ISSP-SP001-06-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-06-NUTNRJ000,humidity,humidity,,,,%,CE01ISSP,SP001,NUTNRJ000
 CE01ISSP-SP001-07-SPKIRJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CE01ISSP,SP001,SPKIRJ000
 CE01ISSP-SP001-07-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE01ISSP,SP001,SPKIRJ000
@@ -274,7 +271,6 @@ CE02SHSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE02SHSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE02SHSM,RID26,NUTNRB000
 CE02SHSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE02SHSM,RID26,NUTNRB000
 CE02SHSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE02SHSM,RID26,NUTNRB000
-CE02SHSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE02SHSM,RID26,NUTNRB000
 CE02SHSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CE02SHSM,RID26,NUTNRB000
 CE02SHSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE02SHSM,RID26,SPKIRB000
 CE02SHSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CE02SHSM,RID27,OPTAAD000
@@ -348,7 +344,6 @@ CE02SHSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CE02SHSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CE02SHSM,SBD12,PCO2AA000
 CE02SHSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CE02SHSM,SBD12,PCO2AA000
 CE02SHSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CE02SHSM,SBD12,PCO2AA000
-CE02SHSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CE02SHSM,SBD12,PCO2AA000
 CE02SHSM-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,CE02SHSM,SBD12,WAVSSA000
 CE02SHSM-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,CE02SHSM,SBD12,WAVSSA000
 CE02SHSM-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,CE02SHSM,SBD12,WAVSSA000
@@ -436,7 +431,6 @@ CE02SHSP-SP001-05-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-05-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-05-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-05-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE02SHSP,SP001,NUTNRJ000
-CE02SHSP-SP001-05-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-05-NUTNRJ000,humidity,humidity,,,,%,CE02SHSP,SP001,NUTNRJ000
 CE02SHSP-SP001-06-SPKIRJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CE02SHSP,SP001,SPKIRJ000
 CE02SHSP-SP001-06-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE02SHSP,SP001,SPKIRJ000
@@ -604,7 +598,6 @@ CE04OSPS-SF01B-4A-NUTNRA102,nutnr_davgprm2,nutnr_davgprm2,,,,1,CE04OSPS,SF01B,NU
 CE04OSPS-SF01B-4A-NUTNRA102,nutnr_davgprm3,nutnr_davgprm3,,,,1,CE04OSPS,SF01B,NUTNRA102
 CE04OSPS-SF01B-4A-NUTNRA102,nutnr_int_time_adj,nutnr_int_time_adj,,,,1,CE04OSPS,SF01B,NUTNRA102
 CE04OSPS-SF01B-4A-NUTNRA102,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE04OSPS,SF01B,NUTNRA102
-CE04OSPS-SF01B-4A-NUTNRA102,temp_spectrometer,temp_spectrometer,,,,ºC,CE04OSPS,SF01B,NUTNRA102
 CE04OSPS-SF01B-4A-NUTNRA102,humidity,humidity,,,,%,CE04OSPS,SF01B,NUTNRA102
 CE04OSPS-SF01B-4B-VELPTD106,velpt_d_eastward_velocity,velpt_d_eastward_velocity,-3.0,3.0,L1,m s-1,CE04OSPS,SF01B,VELPTD106
 CE04OSPS-SF01B-4B-VELPTD106,velpt_d_northward_velocity,velpt_d_northward_velocity,-3.0,3.0,L1,m s-1,CE04OSPS,SF01B,VELPTD106
@@ -643,7 +636,6 @@ CE04OSSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE04OSSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE04OSSM,RID26,NUTNRB000
 CE04OSSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE04OSSM,RID26,NUTNRB000
 CE04OSSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE04OSSM,RID26,NUTNRB000
-CE04OSSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE04OSSM,RID26,NUTNRB000
 CE04OSSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CE04OSSM,RID26,NUTNRB000
 CE04OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE04OSSM,RID26,SPKIRB000
 CE04OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CE04OSSM,RID27,OPTAAD000
@@ -717,7 +709,6 @@ CE04OSSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CE04OSSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CE04OSSM,SBD12,PCO2AA000
 CE04OSSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CE04OSSM,SBD12,PCO2AA000
 CE04OSSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CE04OSSM,SBD12,PCO2AA000
-CE04OSSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CE04OSSM,SBD12,PCO2AA000
 CE04OSSM-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,CE04OSSM,SBD12,WAVSSA000
 CE04OSSM-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,CE04OSSM,SBD12,WAVSSA000
 CE04OSSM-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,CE04OSSM,SBD12,WAVSSA000
@@ -1167,7 +1158,6 @@ CE06ISSM-MFD35-01-VEL3DD000,turbulent_velocity_east,turbulent_velocity_east,-300
 CE06ISSM-MFD35-01-VEL3DD000,turbulent_velocity_north,turbulent_velocity_north,-3000.0,3000.0,L0,mm s-1,CE06ISSM,MFD35,VEL3DD000
 CE06ISSM-MFD35-01-VEL3DD000,turbulent_velocity_vertical,turbulent_velocity_vertical,-1000.0,1000.0,L0,mm s-1,CE06ISSM,MFD35,VEL3DD000
 CE06ISSM-MFD35-01-VEL3DD000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CE06ISSM,MFD35,VEL3DD000
-CE06ISSM-MFD35-02-PRESFA000,pressure_temp,pressure_temp,,,,ºC,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CE06ISSM,MFD35,PRESFA000
 CE06ISSM-MFD35-02-PRESFA000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CE06ISSM,MFD35,PRESFA000
@@ -1283,7 +1273,6 @@ CE06ISSM-RID16-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE06ISSM-RID16-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE06ISSM,RID16,NUTNRB000
 CE06ISSM-RID16-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE06ISSM,RID16,NUTNRB000
 CE06ISSM-RID16-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE06ISSM,RID16,NUTNRB000
-CE06ISSM-RID16-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE06ISSM,RID16,NUTNRB000
 CE06ISSM-RID16-07-NUTNRB000,humidity,humidity,,,,%,CE06ISSM,RID16,NUTNRB000
 CE06ISSM-RID16-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE06ISSM,RID16,SPKIRB000
 CE06ISSM-SBD17-04-VELPTA000,eastward_velocity,eastward_velocity,-3.0,3.0,L1,m s-1,CE06ISSM,SBD17,VELPTA000
@@ -1334,7 +1323,6 @@ CE06ISSP-SP001-06-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-06-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-06-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-06-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE06ISSP,SP001,NUTNRJ000
-CE06ISSP-SP001-06-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-06-NUTNRJ000,humidity,humidity,,,,%,CE06ISSP,SP001,NUTNRJ000
 CE06ISSP-SP001-07-SPKIRJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CE06ISSP,SP001,SPKIRJ000
 CE06ISSP-SP001-07-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE06ISSP,SP001,SPKIRJ000
@@ -1359,7 +1347,6 @@ CE07SHSM-MFD35-01-VEL3DD000,turbulent_velocity_east,turbulent_velocity_east,-300
 CE07SHSM-MFD35-01-VEL3DD000,turbulent_velocity_north,turbulent_velocity_north,-3000.0,3000.0,L0,mm s-1,CE07SHSM,MFD35,VEL3DD000
 CE07SHSM-MFD35-01-VEL3DD000,turbulent_velocity_vertical,turbulent_velocity_vertical,-1000.0,1000.0,L0,mm s-1,CE07SHSM,MFD35,VEL3DD000
 CE07SHSM-MFD35-01-VEL3DD000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CE07SHSM,MFD35,VEL3DD000
-CE07SHSM-MFD35-02-PRESFB000,pressure_temp,pressure_temp,,,,ºC,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CE07SHSM,MFD35,PRESFB000
 CE07SHSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CE07SHSM,MFD35,PRESFB000
@@ -1428,7 +1415,6 @@ CE07SHSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE07SHSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE07SHSM,RID26,NUTNRB000
 CE07SHSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE07SHSM,RID26,NUTNRB000
 CE07SHSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE07SHSM,RID26,NUTNRB000
-CE07SHSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE07SHSM,RID26,NUTNRB000
 CE07SHSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CE07SHSM,RID26,NUTNRB000
 CE07SHSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE07SHSM,RID26,SPKIRB000
 CE07SHSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CE07SHSM,RID27,OPTAAD000
@@ -1502,7 +1488,6 @@ CE07SHSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CE07SHSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CE07SHSM,SBD12,PCO2AA000
 CE07SHSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CE07SHSM,SBD12,PCO2AA000
 CE07SHSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CE07SHSM,SBD12,PCO2AA000
-CE07SHSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CE07SHSM,SBD12,PCO2AA000
 CE07SHSM-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,CE07SHSM,SBD12,WAVSSA000
 CE07SHSM-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,CE07SHSM,SBD12,WAVSSA000
 CE07SHSM-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,CE07SHSM,SBD12,WAVSSA000
@@ -1552,7 +1537,6 @@ CE07SHSP-SP001-05-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-05-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-05-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-05-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE07SHSP,SP001,NUTNRJ000
-CE07SHSP-SP001-05-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-05-NUTNRJ000,humidity,humidity,,,,%,CE07SHSP,SP001,NUTNRJ000
 CE07SHSP-SP001-06-SPKIRJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CE07SHSP,SP001,SPKIRJ000
 CE07SHSP-SP001-06-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE07SHSP,SP001,SPKIRJ000
@@ -1597,7 +1581,6 @@ CE09OSSM-MFD35-01-VEL3DD000,turbulent_velocity_east,turbulent_velocity_east,-300
 CE09OSSM-MFD35-01-VEL3DD000,turbulent_velocity_north,turbulent_velocity_north,-3000.0,3000.0,L0,mm s-1,CE09OSSM,MFD35,VEL3DD000
 CE09OSSM-MFD35-01-VEL3DD000,turbulent_velocity_vertical,turbulent_velocity_vertical,-1000.0,1000.0,L0,mm s-1,CE09OSSM,MFD35,VEL3DD000
 CE09OSSM-MFD35-01-VEL3DD000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CE09OSSM,MFD35,VEL3DD000
-CE09OSSM-MFD35-02-PRESFC000,pressure_temp,pressure_temp,,,,ºC,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CE09OSSM,MFD35,PRESFC000
 CE09OSSM-MFD35-02-PRESFC000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CE09OSSM,MFD35,PRESFC000
@@ -1668,7 +1651,6 @@ CE09OSSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CE09OSSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CE09OSSM,RID26,NUTNRB000
 CE09OSSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CE09OSSM,RID26,NUTNRB000
 CE09OSSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CE09OSSM,RID26,NUTNRB000
-CE09OSSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CE09OSSM,RID26,NUTNRB000
 CE09OSSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CE09OSSM,RID26,NUTNRB000
 CE09OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CE09OSSM,RID26,SPKIRB000
 CE09OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CE09OSSM,RID27,OPTAAD000
@@ -1742,7 +1724,6 @@ CE09OSSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CE09OSSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CE09OSSM,SBD12,PCO2AA000
 CE09OSSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CE09OSSM,SBD12,PCO2AA000
 CE09OSSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CE09OSSM,SBD12,PCO2AA000
-CE09OSSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CE09OSSM,SBD12,PCO2AA000
 CE09OSSM-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,CE09OSSM,SBD12,WAVSSA000
 CE09OSSM-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,CE09OSSM,SBD12,WAVSSA000
 CE09OSSM-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,CE09OSSM,SBD12,WAVSSA000
@@ -1782,7 +1763,6 @@ CP01CNSM-MFD35-01-ADCPTF000,water_velocity_up,water_velocity_up,-1000.0,1000.0,L
 CP01CNSM-MFD35-01-ADCPTF000,error_velocity,error_velocity,-1000.0,1000.0,L0,mm s-1,CP01CNSM,MFD35,ADCPTF000
 CP01CNSM-MFD35-01-ADCPTF000,upward_earth_seawater_velocity,upward_earth_seawater_velocity,-1.0,1.0,L1,m s-1,CP01CNSM,MFD35,ADCPTF000
 CP01CNSM-MFD35-01-ADCPTF000,earth_error_velocity,earth_error_velocity,-1.0,1.0,L1,m s-1,CP01CNSM,MFD35,ADCPTF000
-CP01CNSM-MFD35-02-PRESFB000,pressure_temp,pressure_temp,,,,ºC,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CP01CNSM,MFD35,PRESFB000
 CP01CNSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CP01CNSM,MFD35,PRESFB000
@@ -1834,7 +1814,6 @@ CP01CNSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CP01CNSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CP01CNSM,RID26,NUTNRB000
 CP01CNSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP01CNSM,RID26,NUTNRB000
 CP01CNSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CP01CNSM,RID26,NUTNRB000
-CP01CNSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CP01CNSM,RID26,NUTNRB000
 CP01CNSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CP01CNSM,RID26,NUTNRB000
 CP01CNSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CP01CNSM,RID26,SPKIRB000
 CP01CNSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CP01CNSM,RID27,OPTAAD000
@@ -1901,7 +1880,6 @@ CP01CNSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CP01CNSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CP01CNSM,SBD12,PCO2AA000
 CP01CNSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CP01CNSM,SBD12,PCO2AA000
 CP01CNSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CP01CNSM,SBD12,PCO2AA000
-CP01CNSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CP01CNSM,SBD12,PCO2AA000
 CP01CNSM-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,CP01CNSM,SBD12,WAVSSA000
 CP01CNSM-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,CP01CNSM,SBD12,WAVSSA000
 CP01CNSM-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,CP01CNSM,SBD12,WAVSSA000
@@ -2011,7 +1989,6 @@ CP01CNSP-SP001-03-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CP01CNSP,SP001,NUTNRJ000
 CP01CNSP-SP001-03-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CP01CNSP,SP001,NUTNRJ000
 CP01CNSP-SP001-03-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CP01CNSP,SP001,NUTNRJ000
 CP01CNSP-SP001-03-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP01CNSP,SP001,NUTNRJ000
-CP01CNSP-SP001-03-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CP01CNSP,SP001,NUTNRJ000
 CP01CNSP-SP001-03-NUTNRJ000,humidity,humidity,,,,%,CP01CNSP,SP001,NUTNRJ000
 CP01CNSP-SP001-05-VELPTJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CP01CNSP,SP001,VELPTJ000
 CP01CNSP-SP001-05-VELPTJ000,velpt_pressure,velpt_pressure,0.0,6000.0,,dbar,CP01CNSP,SP001,VELPTJ000
@@ -2194,7 +2171,6 @@ CP03ISSM-MFD35-01-ADCPTF000,water_velocity_up,water_velocity_up,-1000.0,1000.0,L
 CP03ISSM-MFD35-01-ADCPTF000,error_velocity,error_velocity,-1000.0,1000.0,L0,mm s-1,CP03ISSM,MFD35,ADCPTF000
 CP03ISSM-MFD35-01-ADCPTF000,upward_earth_seawater_velocity,upward_earth_seawater_velocity,-1.0,1.0,L1,m s-1,CP03ISSM,MFD35,ADCPTF000
 CP03ISSM-MFD35-01-ADCPTF000,earth_error_velocity,earth_error_velocity,-1.0,1.0,L1,m s-1,CP03ISSM,MFD35,ADCPTF000
-CP03ISSM-MFD35-02-PRESFB000,pressure_temp,pressure_temp,,,,ºC,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CP03ISSM,MFD35,PRESFB000
 CP03ISSM-MFD35-02-PRESFB000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CP03ISSM,MFD35,PRESFB000
@@ -2246,7 +2222,6 @@ CP03ISSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CP03ISSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CP03ISSM,RID26,NUTNRB000
 CP03ISSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP03ISSM,RID26,NUTNRB000
 CP03ISSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CP03ISSM,RID26,NUTNRB000
-CP03ISSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CP03ISSM,RID26,NUTNRB000
 CP03ISSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CP03ISSM,RID26,NUTNRB000
 CP03ISSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CP03ISSM,RID26,SPKIRB000
 CP03ISSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CP03ISSM,RID27,OPTAAD000
@@ -2313,7 +2288,6 @@ CP03ISSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CP03ISSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CP03ISSM,SBD12,PCO2AA000
 CP03ISSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CP03ISSM,SBD12,PCO2AA000
 CP03ISSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CP03ISSM,SBD12,PCO2AA000
-CP03ISSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CP03ISSM,SBD12,PCO2AA000
 CP03ISSP-SP001-02-OPTAAJ000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CP03ISSP,SP001,OPTAAJ000
 CP03ISSP-SP001-02-OPTAAJ000,optical_absorption,optical_absorption,0.0,100.0,L2,m-1,CP03ISSP,SP001,OPTAAJ000
 CP03ISSP-SP001-02-OPTAAJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CP03ISSP,SP001,OPTAAJ000
@@ -2326,7 +2300,6 @@ CP03ISSP-SP001-03-NUTNRJ000,ctd_psu,ctd_psu,0.0,42.0,,1,CP03ISSP,SP001,NUTNRJ000
 CP03ISSP-SP001-03-NUTNRJ000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,CP03ISSP,SP001,NUTNRJ000
 CP03ISSP-SP001-03-NUTNRJ000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,CP03ISSP,SP001,NUTNRJ000
 CP03ISSP-SP001-03-NUTNRJ000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP03ISSP,SP001,NUTNRJ000
-CP03ISSP-SP001-03-NUTNRJ000,temp_spectrometer,temp_spectrometer,,,,ºC,CP03ISSP,SP001,NUTNRJ000
 CP03ISSP-SP001-03-NUTNRJ000,humidity,humidity,,,,%,CP03ISSP,SP001,NUTNRJ000
 CP03ISSP-SP001-05-VELPTJ000,pressure_depth,pressure_depth,0.0,6000.0,,dbar,CP03ISSP,SP001,VELPTJ000
 CP03ISSP-SP001-05-VELPTJ000,velpt_pressure,velpt_pressure,0.0,6000.0,,dbar,CP03ISSP,SP001,VELPTJ000
@@ -2397,7 +2370,6 @@ CP04OSSM-MFD35-01-ADCPSJ000,water_velocity_up,water_velocity_up,-1000.0,1000.0,L
 CP04OSSM-MFD35-01-ADCPSJ000,error_velocity,error_velocity,-1000.0,1000.0,L0,mm s-1,CP04OSSM,MFD35,ADCPSJ000
 CP04OSSM-MFD35-01-ADCPSJ000,upward_earth_seawater_velocity,upward_earth_seawater_velocity,-1.0,1.0,L1,m s-1,CP04OSSM,MFD35,ADCPSJ000
 CP04OSSM-MFD35-01-ADCPSJ000,earth_error_velocity,earth_error_velocity,-1.0,1.0,L1,m s-1,CP04OSSM,MFD35,ADCPSJ000
-CP04OSSM-MFD35-02-PRESFC000,pressure_temp,pressure_temp,,,,ºC,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,abs_seafloor_pressure,abs_seafloor_pressure,0.0,6000.0,L1,dbar,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,seawater_temperature,seawater_temperature,-2.0,40.0,,ºC,CP04OSSM,MFD35,PRESFC000
 CP04OSSM-MFD35-02-PRESFC000,presf_tide_pressure,presf_tide_pressure,0.0,6000.0,L1,dbar,CP04OSSM,MFD35,PRESFC000
@@ -2449,7 +2421,6 @@ CP04OSSM-RID26-06-PHSEND000,phsen_abcdef_ph_seawater,phsen_abcdef_ph_seawater,7.
 CP04OSSM-RID26-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,CP04OSSM,RID26,NUTNRB000
 CP04OSSM-RID26-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP04OSSM,RID26,NUTNRB000
 CP04OSSM-RID26-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,CP04OSSM,RID26,NUTNRB000
-CP04OSSM-RID26-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,CP04OSSM,RID26,NUTNRB000
 CP04OSSM-RID26-07-NUTNRB000,humidity,humidity,,,,%,CP04OSSM,RID26,NUTNRB000
 CP04OSSM-RID26-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,CP04OSSM,RID26,SPKIRB000
 CP04OSSM-RID27-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,CP04OSSM,RID27,OPTAAD000
@@ -2516,7 +2487,6 @@ CP04OSSM-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 CP04OSSM-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,CP04OSSM,SBD12,PCO2AA000
 CP04OSSM-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,CP04OSSM,SBD12,PCO2AA000
 CP04OSSM-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,CP04OSSM,SBD12,PCO2AA000
-CP04OSSM-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,CP04OSSM,SBD12,PCO2AA000
 CP05MOAS-A6263-02-DOSTAN000,salinity,salinity,0.0,42.0,L2,1,CP05MOAS,A6263,DOSTAN000
 CP05MOAS-A6263-02-DOSTAN000,calculated_oxygen_concentration,calculated_oxygen_concentration,0.0,410.0,,uM,CP05MOAS,A6263,DOSTAN000
 CP05MOAS-A6263-02-DOSTAN000,calculated_oxygen_saturation,calculated_oxygen_saturation,0.0,110.0,,percent,CP05MOAS,A6263,DOSTAN000
@@ -2530,7 +2500,6 @@ CP05MOAS-A6263-03-CTDAVN000,temperature,temperature,-2.0,40.0,L1,ºC,CP05MOAS,A6
 CP05MOAS-A6263-03-CTDAVN000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CP05MOAS,A6263,CTDAVN000
 CP05MOAS-A6263-04-NUTNRN000,nutnr_nitrogen_in_nitrate,nutnr_nitrogen_in_nitrate,0.0,2.5,,mg/l,CP05MOAS,A6263,NUTNRN000
 CP05MOAS-A6263-04-NUTNRN000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP05MOAS,A6263,NUTNRN000
-CP05MOAS-A6263-04-NUTNRN000,temp_spectrometer,temp_spectrometer,,,,ºC,CP05MOAS,A6263,NUTNRN000
 CP05MOAS-A6263-04-NUTNRN000,humidity,humidity,,,,%,CP05MOAS,A6263,NUTNRN000
 CP05MOAS-A6263-05-ADCPAN000,vertical_velocity,vertical_velocity,-1.0,1.0,,m s-1,CP05MOAS,A6263,ADCPAN000
 CP05MOAS-A6263-05-ADCPAN000,adcpa_n_auv_error_velocity,adcpa_n_auv_error_velocity,-1000.0,1000.0,L0,mm s-1,CP05MOAS,A6263,ADCPAN000
@@ -2550,7 +2519,6 @@ CP05MOAS-A6264-03-CTDAVN000,temperature,temperature,-2.0,40.0,L1,ºC,CP05MOAS,A6
 CP05MOAS-A6264-03-CTDAVN000,speed_of_sound,speed_of_sound,1380.0,1580.0,,m s-1,CP05MOAS,A6264,CTDAVN000
 CP05MOAS-A6264-04-NUTNRN000,nutnr_nitrogen_in_nitrate,nutnr_nitrogen_in_nitrate,0.0,2.5,,mg/l,CP05MOAS,A6264,NUTNRN000
 CP05MOAS-A6264-04-NUTNRN000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,CP05MOAS,A6264,NUTNRN000
-CP05MOAS-A6264-04-NUTNRN000,temp_spectrometer,temp_spectrometer,,,,ºC,CP05MOAS,A6264,NUTNRN000
 CP05MOAS-A6264-04-NUTNRN000,humidity,humidity,,,,%,CP05MOAS,A6264,NUTNRN000
 CP05MOAS-A6264-05-ADCPAN000,vertical_velocity,vertical_velocity,-1.0,1.0,,m s-1,CP05MOAS,A6264,ADCPAN000
 CP05MOAS-A6264-05-ADCPAN000,adcpa_n_auv_error_velocity,adcpa_n_auv_error_velocity,-1000.0,1000.0,L0,mm s-1,CP05MOAS,A6264,ADCPAN000
@@ -3012,7 +2980,6 @@ GA01SUMO-RID16-06-DOSTAD000,optode_temperature,optode_temperature,-2.0,40.0,,ºC
 GA01SUMO-RID16-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GA01SUMO,RID16,NUTNRB000
 GA01SUMO-RID16-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA01SUMO,RID16,NUTNRB000
 GA01SUMO-RID16-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GA01SUMO,RID16,NUTNRB000
-GA01SUMO-RID16-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GA01SUMO,RID16,NUTNRB000
 GA01SUMO-RID16-07-NUTNRB000,humidity,humidity,,,,%,GA01SUMO,RID16,NUTNRB000
 GA01SUMO-RID16-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,GA01SUMO,RID16,SPKIRB000
 GA01SUMO-RII11-02-ADCPSN010,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,0.0,255.0,L1,dB,GA01SUMO,RII11,ADCPSN010
@@ -3209,7 +3176,6 @@ GA01SUMO-SBD11-06-METBKA000,met_sensflx_minute,met_sensflx_minute,,,L2,W m-2,GA0
 GA01SUMO-SBD11-08-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GA01SUMO,SBD11,NUTNRB000
 GA01SUMO-SBD11-08-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA01SUMO,SBD11,NUTNRB000
 GA01SUMO-SBD11-08-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GA01SUMO,SBD11,NUTNRB000
-GA01SUMO-SBD11-08-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GA01SUMO,SBD11,NUTNRB000
 GA01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GA01SUMO,SBD11,NUTNRB000
 GA01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,GA01SUMO,SBD12,OPTAAD000
 GA01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0.0,100.0,L2,m-1,GA01SUMO,SBD12,OPTAAD000
@@ -3224,7 +3190,6 @@ GA01SUMO-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 GA01SUMO-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,GA01SUMO,SBD12,PCO2AA000
 GA01SUMO-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,GA01SUMO,SBD12,PCO2AA000
 GA01SUMO-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,GA01SUMO,SBD12,PCO2AA000
-GA01SUMO-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,GA01SUMO,SBD12,PCO2AA000
 GA01SUMO-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,GA01SUMO,SBD12,WAVSSA000
 GA01SUMO-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,GA01SUMO,SBD12,WAVSSA000
 GA01SUMO-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,GA01SUMO,SBD12,WAVSSA000
@@ -3746,7 +3711,6 @@ GA05MOAS-PG562-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA05MOAS,PG562,NUTNRM000
-GA05MOAS-PG562-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,humidity,humidity,,,,%,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GA05MOAS,PG562,NUTNRM000
 GA05MOAS-PG562-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GA05MOAS,PG562,NUTNRM000
@@ -3785,7 +3749,6 @@ GA05MOAS-PG563-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA05MOAS,PG563,NUTNRM000
-GA05MOAS-PG563-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,humidity,humidity,,,,%,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GA05MOAS,PG563,NUTNRM000
 GA05MOAS-PG563-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GA05MOAS,PG563,NUTNRM000
@@ -3824,7 +3787,6 @@ GA05MOAS-PG578-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA05MOAS,PG578,NUTNRM000
-GA05MOAS-PG578-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,humidity,humidity,,,,%,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GA05MOAS,PG578,NUTNRM000
 GA05MOAS-PG578-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GA05MOAS,PG578,NUTNRM000
@@ -3863,7 +3825,6 @@ GA05MOAS-PG580-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GA05MOAS,PG580,NUTNRM000
-GA05MOAS-PG580-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,humidity,humidity,,,,%,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GA05MOAS,PG580,NUTNRM000
 GA05MOAS-PG580-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GA05MOAS,PG580,NUTNRM000
@@ -3905,7 +3866,6 @@ GI01SUMO-RID16-06-DOSTAD000,optode_temperature,optode_temperature,-2.0,40.0,,ºC
 GI01SUMO-RID16-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GI01SUMO,RID16,NUTNRB000
 GI01SUMO-RID16-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GI01SUMO,RID16,NUTNRB000
 GI01SUMO-RID16-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GI01SUMO,RID16,NUTNRB000
-GI01SUMO-RID16-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GI01SUMO,RID16,NUTNRB000
 GI01SUMO-RID16-07-NUTNRB000,humidity,humidity,,,,%,GI01SUMO,RID16,NUTNRB000
 GI01SUMO-RID16-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,GI01SUMO,RID16,SPKIRB000
 GI01SUMO-RII11-02-ADCPSN010,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,0.0,255.0,L1,dB,GI01SUMO,RII11,ADCPSN010
@@ -4102,7 +4062,6 @@ GI01SUMO-SBD11-06-METBKA000,met_sensflx_minute,met_sensflx_minute,,,L2,W m-2,GI0
 GI01SUMO-SBD11-08-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GI01SUMO,SBD11,NUTNRB000
 GI01SUMO-SBD11-08-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GI01SUMO,SBD11,NUTNRB000
 GI01SUMO-SBD11-08-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GI01SUMO,SBD11,NUTNRB000
-GI01SUMO-SBD11-08-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GI01SUMO,SBD11,NUTNRB000
 GI01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GI01SUMO,SBD11,NUTNRB000
 GI01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,GI01SUMO,SBD12,OPTAAD000
 GI01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0.0,100.0,L2,m-1,GI01SUMO,SBD12,OPTAAD000
@@ -4117,7 +4076,6 @@ GI01SUMO-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 GI01SUMO-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,GI01SUMO,SBD12,PCO2AA000
 GI01SUMO-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,GI01SUMO,SBD12,PCO2AA000
 GI01SUMO-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,GI01SUMO,SBD12,PCO2AA000
-GI01SUMO-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,GI01SUMO,SBD12,PCO2AA000
 GI01SUMO-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,GI01SUMO,SBD12,WAVSSA000
 GI01SUMO-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,GI01SUMO,SBD12,WAVSSA000
 GI01SUMO-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,GI01SUMO,SBD12,WAVSSA000
@@ -4747,7 +4705,6 @@ GI05MOAS-PG528-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GI05MOAS,PG528,NUTNRM000
-GI05MOAS-PG528-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,humidity,humidity,,,,%,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GI05MOAS,PG528,NUTNRM000
 GI05MOAS-PG528-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GI05MOAS,PG528,NUTNRM000
@@ -4786,7 +4743,6 @@ GI05MOAS-PG564-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GI05MOAS,PG564,NUTNRM000
-GI05MOAS-PG564-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,humidity,humidity,,,,%,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GI05MOAS,PG564,NUTNRM000
 GI05MOAS-PG564-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GI05MOAS,PG564,NUTNRM000
@@ -4825,7 +4781,6 @@ GI05MOAS-PG577-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GI05MOAS,PG577,NUTNRM000
-GI05MOAS-PG577-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,humidity,humidity,,,,%,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GI05MOAS,PG577,NUTNRM000
 GI05MOAS-PG577-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GI05MOAS,PG577,NUTNRM000
@@ -5343,7 +5298,6 @@ GP05MOAS-PG514-03-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GP05MOAS,PG514,NUTNRM000
-GP05MOAS-PG514-03-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,humidity,humidity,,,,%,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-03-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GP05MOAS,PG514,NUTNRM000
@@ -5360,7 +5314,6 @@ GP05MOAS-PG514-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GP05MOAS,PG514,NUTNRM000
-GP05MOAS-PG514-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,humidity,humidity,,,,%,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GP05MOAS,PG514,NUTNRM000
 GP05MOAS-PG514-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GP05MOAS,PG514,NUTNRM000
@@ -5412,7 +5365,6 @@ GP05MOAS-PG515-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GP05MOAS,PG515,NUTNRM000
-GP05MOAS-PG515-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,humidity,humidity,,,,%,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GP05MOAS,PG515,NUTNRM000
 GP05MOAS-PG515-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GP05MOAS,PG515,NUTNRM000
@@ -5451,7 +5403,6 @@ GP05MOAS-PG575-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GP05MOAS,PG575,NUTNRM000
-GP05MOAS-PG575-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,humidity,humidity,,,,%,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GP05MOAS,PG575,NUTNRM000
 GP05MOAS-PG575-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GP05MOAS,PG575,NUTNRM000
@@ -5490,7 +5441,6 @@ GP05MOAS-PG576-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GP05MOAS,PG576,NUTNRM000
-GP05MOAS-PG576-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,humidity,humidity,,,,%,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GP05MOAS,PG576,NUTNRM000
 GP05MOAS-PG576-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GP05MOAS,PG576,NUTNRM000
@@ -5532,7 +5482,6 @@ GS01SUMO-RID16-06-DOSTAD000,optode_temperature,optode_temperature,-2.0,40.0,,ºC
 GS01SUMO-RID16-07-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GS01SUMO,RID16,NUTNRB000
 GS01SUMO-RID16-07-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GS01SUMO,RID16,NUTNRB000
 GS01SUMO-RID16-07-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GS01SUMO,RID16,NUTNRB000
-GS01SUMO-RID16-07-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GS01SUMO,RID16,NUTNRB000
 GS01SUMO-RID16-07-NUTNRB000,humidity,humidity,,,,%,GS01SUMO,RID16,NUTNRB000
 GS01SUMO-RID16-08-SPKIRB000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_downwelling_vector,0.0,300.0,L1,uW cm-2 nm-1,GS01SUMO,RID16,SPKIRB000
 GS01SUMO-RII11-02-ADCPSN010,corrected_echo_intensity_beam1,corrected_echo_intensity_beam1,0.0,255.0,L1,dB,GS01SUMO,RII11,ADCPSN010
@@ -5729,7 +5678,6 @@ GS01SUMO-SBD11-06-METBKA000,met_sensflx_minute,met_sensflx_minute,,,L2,W m-2,GS0
 GS01SUMO-SBD11-08-NUTNRB000,salinity_corrected_nitrate,salinity_corrected_nitrate,0.0,40.0,L2,µmol L-1,GS01SUMO,SBD11,NUTNRB000
 GS01SUMO-SBD11-08-NUTNRB000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GS01SUMO,SBD11,NUTNRB000
 GS01SUMO-SBD11-08-NUTNRB000,rms_error,rms_error,,,,uMol L-1,GS01SUMO,SBD11,NUTNRB000
-GS01SUMO-SBD11-08-NUTNRB000,temp_spectrometer,temp_spectrometer,,,,ºC,GS01SUMO,SBD11,NUTNRB000
 GS01SUMO-SBD11-08-NUTNRB000,humidity,humidity,,,,%,GS01SUMO,SBD11,NUTNRB000
 GS01SUMO-SBD12-01-OPTAAD000,beam_attenuation,beam_attenuation,0.0,100.0,L2,m-1,GS01SUMO,SBD12,OPTAAD000
 GS01SUMO-SBD12-01-OPTAAD000,optical_absorption,optical_absorption,0.0,100.0,L2,m-1,GS01SUMO,SBD12,OPTAAD000
@@ -5744,7 +5692,6 @@ GS01SUMO-SBD12-04-PCO2AA000,pco2_co2flux,pco2_co2flux,-1e-08,4.4e-07,L2,mol m-2 
 GS01SUMO-SBD12-04-PCO2AA000,measured_air_co2,measured_air_co2,0.0,600.0,L0,ppm,GS01SUMO,SBD12,PCO2AA000
 GS01SUMO-SBD12-04-PCO2AA000,measured_water_co2,measured_water_co2,0.0,600.0,L0,ppm,GS01SUMO,SBD12,PCO2AA000
 GS01SUMO-SBD12-04-PCO2AA000,humidity,humidity,,,,mbar,GS01SUMO,SBD12,PCO2AA000
-GS01SUMO-SBD12-04-PCO2AA000,humidity_temperature,humidity_temperature,,,,ºC,GS01SUMO,SBD12,PCO2AA000
 GS01SUMO-SBD12-05-WAVSSA000,average_wave_height,average_wave_height,0.0,12.0,L0,m,GS01SUMO,SBD12,WAVSSA000
 GS01SUMO-SBD12-05-WAVSSA000,max_wave_height,max_wave_height,0.0,30.0,L0,m,GS01SUMO,SBD12,WAVSSA000
 GS01SUMO-SBD12-05-WAVSSA000,significant_wave_height,significant_wave_height,0.0,18.0,L0,m,GS01SUMO,SBD12,WAVSSA000
@@ -6286,7 +6233,6 @@ GS05MOAS-PG565-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GS05MOAS,PG565,NUTNRM000
-GS05MOAS-PG565-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,humidity,humidity,,,,%,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GS05MOAS,PG565,NUTNRM000
 GS05MOAS-PG565-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GS05MOAS,PG565,NUTNRM000
@@ -6325,7 +6271,6 @@ GS05MOAS-PG566-05-NUTNRM000,ctd_psu,ctd_psu,0.0,42.0,,1,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,ctd_temp,ctd_temp,-2.0,40.0,,ºC,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,ctd_dbar,ctd_dbar,0.0,6000.0,,dbar,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,GS05MOAS,PG566,NUTNRM000
-GS05MOAS-PG566-05-NUTNRM000,temp_spectrometer,temp_spectrometer,,,,ºC,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,humidity,humidity,,,,%,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,sci_suna_nitrate_um,sci_suna_nitrate_um,0.0,40.0,L1,umol/L,GS05MOAS,PG566,NUTNRM000
 GS05MOAS-PG566-05-NUTNRM000,sci_suna_nitrate_mg,sci_suna_nitrate_mg,0.0,2.5,,mg/L,GS05MOAS,PG566,NUTNRM000
@@ -6469,7 +6414,6 @@ RS01SBPS-SF01A-4A-NUTNRA101,nutnr_davgprm2,nutnr_davgprm2,,,,1,RS01SBPS,SF01A,NU
 RS01SBPS-SF01A-4A-NUTNRA101,nutnr_davgprm3,nutnr_davgprm3,,,,1,RS01SBPS,SF01A,NUTNRA101
 RS01SBPS-SF01A-4A-NUTNRA101,nutnr_int_time_adj,nutnr_int_time_adj,,,,1,RS01SBPS,SF01A,NUTNRA101
 RS01SBPS-SF01A-4A-NUTNRA101,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,RS01SBPS,SF01A,NUTNRA101
-RS01SBPS-SF01A-4A-NUTNRA101,temp_spectrometer,temp_spectrometer,,,,ºC,RS01SBPS,SF01A,NUTNRA101
 RS01SBPS-SF01A-4A-NUTNRA101,humidity,humidity,,,,%,RS01SBPS,SF01A,NUTNRA101
 RS01SBPS-SF01A-4B-VELPTD102,velpt_d_eastward_velocity,velpt_d_eastward_velocity,-3.0,3.0,L1,m s-1,RS01SBPS,SF01A,VELPTD102
 RS01SBPS-SF01A-4B-VELPTD102,velpt_d_northward_velocity,velpt_d_northward_velocity,-3.0,3.0,L1,m s-1,RS01SBPS,SF01A,VELPTD102
@@ -6552,7 +6496,6 @@ RS01SLBS-LJ01A-12-DOSTAD101,seawater_temperature,seawater_temperature,-2.0,40.0,
 RS01SLBS-LJ01A-12-DOSTAD101,seawater_pressure,seawater_pressure,0.0,6000.0,L1,dbar,RS01SLBS,LJ01A,DOSTAD101
 RS01SLBS-LJ01A-12-DOSTAD101,seawater_conductivity,seawater_conductivity,0.0,6.0,L1,S m-1,RS01SLBS,LJ01A,DOSTAD101
 RS01SLBS-LJ01A-12-DOSTAD101,ctd_tc_oxygen,ctd_tc_oxygen,0.0,400.0,L1,umol L-1,RS01SLBS,LJ01A,DOSTAD101
-RS01SLBS-MJ01A-06-PRESTA101,pressure_temp,pressure_temp,,,,ºC,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-06-PRESTA101,date_time_str,date_time_str,,,,1,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-06-PRESTA101,seafloor_pressure,seafloor_pressure,0.0,6000.0,L1,dbar,RS01SLBS,MJ01A,PRESTA101
 RS01SLBS-MJ01A-06-PRESTA101,absolute_pressure,absolute_pressure,0.0,8800.0,L0,psi,RS01SLBS,MJ01A,PRESTA101
@@ -6565,7 +6508,6 @@ RS01SLBS-MJ01A-12-VEL3DB101,mag_comp_y,mag_comp_y,,,,1,RS01SLBS,MJ01A,VEL3DB101
 RS01SLBS-MJ01A-12-VEL3DB101,eastward_turbulent_velocity,eastward_turbulent_velocity,-3.0,3.0,L1,m s-1,RS01SLBS,MJ01A,VEL3DB101
 RS01SLBS-MJ01A-12-VEL3DB101,northward_turbulent_velocity,northward_turbulent_velocity,-3.0,3.0,L1,m s-1,RS01SLBS,MJ01A,VEL3DB101
 RS01SLBS-MJ01A-12-VEL3DB101,upward_turbulent_velocity,upward_turbulent_velocity,-1.0,1.0,L1,m s-1,RS01SLBS,MJ01A,VEL3DB101
-RS01SUM1-LJ01B-09-PRESTB102,pressure_temp,pressure_temp,,,,ºC,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-09-PRESTB102,date_time_str,date_time_str,,,,1,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-09-PRESTB102,seafloor_pressure,seafloor_pressure,0.0,6000.0,L1,dbar,RS01SUM1,LJ01B,PRESTB102
 RS01SUM1-LJ01B-09-PRESTB102,absolute_pressure,absolute_pressure,0.0,8800.0,L0,psi,RS01SUM1,LJ01B,PRESTB102
@@ -6664,9 +6606,6 @@ RS03ASHS-MJ03B-09-BOTPTA304,heat_y_tilt,heat_y_tilt,,,,degrees,RS03ASHS,MJ03B,BO
 RS03ASHS-MJ03B-09-BOTPTA304,iris_x_tilt,iris_x_tilt,,,,degrees,RS03ASHS,MJ03B,BOTPTA304
 RS03ASHS-MJ03B-09-BOTPTA304,iris_y_tilt,iris_y_tilt,,,,degrees,RS03ASHS,MJ03B,BOTPTA304
 RS03ASHS-MJ03B-09-BOTPTA304,bottom_pressure,bottom_pressure,1500.0,3200.0,L1,psia,RS03ASHS,MJ03B,BOTPTA304
-RS03ASHS-MJ03B-09-BOTPTA304,lily_temp,lily_temp,,,,ºC,RS03ASHS,MJ03B,BOTPTA304
-RS03ASHS-MJ03B-09-BOTPTA304,iris_temp,iris_temp,,,,ºC,RS03ASHS,MJ03B,BOTPTA304
-RS03ASHS-MJ03B-09-BOTPTA304,heat_temp,heat_temp,,,,ºC,RS03ASHS,MJ03B,BOTPTA304
 RS03ASHS-MJ03B-10-CTDPFB304,practical_salinity,practical_salinity,0.0,42.0,L2,1,RS03ASHS,MJ03B,CTDPFB304
 RS03ASHS-MJ03B-10-CTDPFB304,dissolved_oxygen,dissolved_oxygen,0.0,400.0,L2,µmol kg-1,RS03ASHS,MJ03B,CTDPFB304
 RS03ASHS-MJ03B-10-CTDPFB304,density,density,1000.0,1100.0,L2,kg m-3,RS03ASHS,MJ03B,CTDPFB304
@@ -6742,7 +6681,6 @@ RS03AXBS-LJ03A-12-DOSTAD301,seawater_temperature,seawater_temperature,-2.0,40.0,
 RS03AXBS-LJ03A-12-DOSTAD301,seawater_pressure,seawater_pressure,0.0,6000.0,L1,dbar,RS03AXBS,LJ03A,DOSTAD301
 RS03AXBS-LJ03A-12-DOSTAD301,seawater_conductivity,seawater_conductivity,0.0,6.0,L1,S m-1,RS03AXBS,LJ03A,DOSTAD301
 RS03AXBS-LJ03A-12-DOSTAD301,ctd_tc_oxygen,ctd_tc_oxygen,0.0,400.0,L1,umol L-1,RS03AXBS,LJ03A,DOSTAD301
-RS03AXBS-MJ03A-06-PRESTA301,pressure_temp,pressure_temp,,,,ºC,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-06-PRESTA301,date_time_str,date_time_str,,,,1,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-06-PRESTA301,seafloor_pressure,seafloor_pressure,0.0,6000.0,L1,dbar,RS03AXBS,MJ03A,PRESTA301
 RS03AXBS-MJ03A-06-PRESTA301,absolute_pressure,absolute_pressure,0.0,8800.0,L0,psi,RS03AXBS,MJ03A,PRESTA301
@@ -6892,7 +6830,6 @@ RS03AXPS-SF03A-4A-NUTNRA301,nutnr_davgprm2,nutnr_davgprm2,,,,1,RS03AXPS,SF03A,NU
 RS03AXPS-SF03A-4A-NUTNRA301,nutnr_davgprm3,nutnr_davgprm3,,,,1,RS03AXPS,SF03A,NUTNRA301
 RS03AXPS-SF03A-4A-NUTNRA301,nutnr_int_time_adj,nutnr_int_time_adj,,,,1,RS03AXPS,SF03A,NUTNRA301
 RS03AXPS-SF03A-4A-NUTNRA301,nitrate_concentration,nitrate_concentration,0.0,40.0,L1,uMol L-1,RS03AXPS,SF03A,NUTNRA301
-RS03AXPS-SF03A-4A-NUTNRA301,temp_spectrometer,temp_spectrometer,,,,ºC,RS03AXPS,SF03A,NUTNRA301
 RS03AXPS-SF03A-4A-NUTNRA301,humidity,humidity,,,,%,RS03AXPS,SF03A,NUTNRA301
 RS03AXPS-SF03A-4B-VELPTD302,velpt_d_eastward_velocity,velpt_d_eastward_velocity,-3.0,3.0,L1,m s-1,RS03AXPS,SF03A,VELPTD302
 RS03AXPS-SF03A-4B-VELPTD302,velpt_d_northward_velocity,velpt_d_northward_velocity,-3.0,3.0,L1,m s-1,RS03AXPS,SF03A,VELPTD302
@@ -6926,9 +6863,6 @@ RS03CCAL-MJ03F-05-BOTPTA301,heat_y_tilt,heat_y_tilt,,,,degrees,RS03CCAL,MJ03F,BO
 RS03CCAL-MJ03F-05-BOTPTA301,iris_x_tilt,iris_x_tilt,,,,degrees,RS03CCAL,MJ03F,BOTPTA301
 RS03CCAL-MJ03F-05-BOTPTA301,iris_y_tilt,iris_y_tilt,,,,degrees,RS03CCAL,MJ03F,BOTPTA301
 RS03CCAL-MJ03F-05-BOTPTA301,bottom_pressure,bottom_pressure,1500.0,3200.0,L1,psia,RS03CCAL,MJ03F,BOTPTA301
-RS03CCAL-MJ03F-05-BOTPTA301,lily_temp,lily_temp,,,,ºC,RS03CCAL,MJ03F,BOTPTA301
-RS03CCAL-MJ03F-05-BOTPTA301,iris_temp,iris_temp,,,,ºC,RS03CCAL,MJ03F,BOTPTA301
-RS03CCAL-MJ03F-05-BOTPTA301,heat_temp,heat_temp,,,,ºC,RS03CCAL,MJ03F,BOTPTA301
 RS03ECAL-MJ03E-06-BOTPTA302,corrected_compass_direction,corrected_compass_direction,0.0,360.0,L1,degrees,RS03ECAL,MJ03E,BOTPTA302
 RS03ECAL-MJ03E-06-BOTPTA302,seafloor_tilt_magnitude,seafloor_tilt_magnitude,-329.999,329.999,L1,urad,RS03ECAL,MJ03E,BOTPTA302
 RS03ECAL-MJ03E-06-BOTPTA302,seafloor_tilt_direction,seafloor_tilt_direction,0.0,360.0,L1,degrees,RS03ECAL,MJ03E,BOTPTA302
@@ -6948,9 +6882,6 @@ RS03ECAL-MJ03E-06-BOTPTA302,heat_y_tilt,heat_y_tilt,,,,degrees,RS03ECAL,MJ03E,BO
 RS03ECAL-MJ03E-06-BOTPTA302,iris_x_tilt,iris_x_tilt,,,,degrees,RS03ECAL,MJ03E,BOTPTA302
 RS03ECAL-MJ03E-06-BOTPTA302,iris_y_tilt,iris_y_tilt,,,,degrees,RS03ECAL,MJ03E,BOTPTA302
 RS03ECAL-MJ03E-06-BOTPTA302,bottom_pressure,bottom_pressure,1500.0,3200.0,L1,psia,RS03ECAL,MJ03E,BOTPTA302
-RS03ECAL-MJ03E-06-BOTPTA302,lily_temp,lily_temp,,,,ºC,RS03ECAL,MJ03E,BOTPTA302
-RS03ECAL-MJ03E-06-BOTPTA302,iris_temp,iris_temp,,,,ºC,RS03ECAL,MJ03E,BOTPTA302
-RS03ECAL-MJ03E-06-BOTPTA302,heat_temp,heat_temp,,,,ºC,RS03ECAL,MJ03E,BOTPTA302
 RS03INT1-MJ03C-06-MASSPA301,massp_converter_24v_main,massp_converter_24v_main,,,,1,RS03INT1,MJ03C,MASSPA301
 RS03INT1-MJ03C-06-MASSPA301,massp_converter_12v_main,massp_converter_12v_main,,,,1,RS03INT1,MJ03C,MASSPA301
 RS03INT1-MJ03C-06-MASSPA301,massp_converter_24v_sec,massp_converter_24v_sec,,,,1,RS03INT1,MJ03C,MASSPA301
@@ -7019,7 +6950,6 @@ RS03INT1-MJ03C-09-THSPHA301,thsph_temp_th,thsph_temp_th,0.0,400.0,L1,ºC,RS03INT
 RS03INT1-MJ03C-09-THSPHA301,thsph_temp_tl,thsph_temp_tl,0.0,400.0,L1,ºC,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_temp_tch,thsph_temp_tch,0.0,400.0,L1,ºC,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_temp_tcl,thsph_temp_tcl,0.0,400.0,L1,ºC,RS03INT1,MJ03C,THSPHA301
-RS03INT1-MJ03C-09-THSPHA301,thsph_temp_int,thsph_temp_int,0.0,400.0,L1,ºC,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_ph,thsph_ph,7.3,8.5,L2,1,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_ph_acl,thsph_ph_acl,7.3,8.5,L2,1,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_ph_noref,thsph_ph_noref,7.3,8.5,L2,1,RS03INT1,MJ03C,THSPHA301
@@ -7027,7 +6957,6 @@ RS03INT1-MJ03C-09-THSPHA301,thsph_ph_noref_acl,thsph_ph_noref_acl,7.3,8.5,L2,1,R
 RS03INT1-MJ03C-09-THSPHA301,thsph_sulfide,thsph_sulfide,0.0,600.0,L2,mmol kg-1,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-09-THSPHA301,thsph_hydrogen,thsph_hydrogen,0.0,600.0,L2,mmol kg-1,RS03INT1,MJ03C,THSPHA301
 RS03INT1-MJ03C-10-TRHPHA301,trhph_cycle_time_units,trhph_cycle_time_units,,,,1,RS03INT1,MJ03C,TRHPHA301
-RS03INT1-MJ03C-10-TRHPHA301,ref_temp_degc,ref_temp_degc,,,,ºC,RS03INT1,MJ03C,TRHPHA301
 RS03INT1-MJ03C-10-TRHPHA301,resistivity_temp_degc,resistivity_temp_degc,,,,ºC,RS03INT1,MJ03C,TRHPHA301
 RS03INT1-MJ03C-10-TRHPHA301,vent_fluid_temperaure,vent_fluid_temperaure,0.0,400.0,L1,ºC,RS03INT1,MJ03C,TRHPHA301
 RS03INT1-MJ03C-10-TRHPHA301,vent_fluid_chloride_conc,vent_fluid_chloride_conc,0.0,600.0,L2,mmol kg-1,RS03INT1,MJ03C,TRHPHA301
@@ -7051,9 +6980,6 @@ RS03INT2-MJ03D-06-BOTPTA303,heat_y_tilt,heat_y_tilt,,,,degrees,RS03INT2,MJ03D,BO
 RS03INT2-MJ03D-06-BOTPTA303,iris_x_tilt,iris_x_tilt,,,,degrees,RS03INT2,MJ03D,BOTPTA303
 RS03INT2-MJ03D-06-BOTPTA303,iris_y_tilt,iris_y_tilt,,,,degrees,RS03INT2,MJ03D,BOTPTA303
 RS03INT2-MJ03D-06-BOTPTA303,bottom_pressure,bottom_pressure,1500.0,3200.0,L1,psia,RS03INT2,MJ03D,BOTPTA303
-RS03INT2-MJ03D-06-BOTPTA303,lily_temp,lily_temp,,,,ºC,RS03INT2,MJ03D,BOTPTA303
-RS03INT2-MJ03D-06-BOTPTA303,iris_temp,iris_temp,,,,ºC,RS03INT2,MJ03D,BOTPTA303
-RS03INT2-MJ03D-06-BOTPTA303,heat_temp,heat_temp,,,,ºC,RS03INT2,MJ03D,BOTPTA303
 RS03INT2-MJ03D-12-VEL3DB304,temperature,temperature,-2.0,40.0,,ºC,RS03INT2,MJ03D,VEL3DB304
 RS03INT2-MJ03D-12-VEL3DB304,turbulent_velocity_east,turbulent_velocity_east,-3000.0,3000.0,L0,mm s-1,RS03INT2,MJ03D,VEL3DB304
 RS03INT2-MJ03D-12-VEL3DB304,turbulent_velocity_north,turbulent_velocity_north,-3000.0,3000.0,L0,mm s-1,RS03INT2,MJ03D,VEL3DB304
