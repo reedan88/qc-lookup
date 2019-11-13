@@ -181,8 +181,7 @@ CE01ISSP-SP001-07-SPKIRJ000,spkir_abj_cspp_downwelling_vector,spkir_abj_cspp_dow
 CE01ISSP-SP001-08-FLORTJ000,seawater_scattering_coefficient,seawater_scattering_coefficient,,,,L2,m-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,fluorometric_chlorophyll_a,fluorometric_chlorophyll_a,,0.025,20.0,L1,µg L-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,fluorometric_cdom,fluorometric_cdom,,0.1,20.0,L1,ppb,CE01ISSP,SP001,FLORTJ000
-CE01ISSP-SP001-08-FLORTJ000,
-_scattering_coefficient,total_volume_scattering_coefficient,m-1 sr-1,0.0001,20.0,L1,m-1 sr-1,CE01ISSP,SP001,FLORTJ000
+CE01ISSP-SP001-08-FLORTJ000,total_volume_scattering_coefficient,total_volume_scattering_coefficient,m-1 sr-1,0.0001,20.0,L1,m-1 sr-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,optical_backscatter,optical_backscatter,,0.003,20.0,L2,m-1,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-08-FLORTJ000,pressure_depth,pressure_depth,,,,,dbar,CE01ISSP,SP001,FLORTJ000
 CE01ISSP-SP001-09-CTDPFJ000,conductivity,conductivity,S m-1,0.01,20.0,L1,S m-1,CE01ISSP,SP001,CTDPFJ000
