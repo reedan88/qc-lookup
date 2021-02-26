@@ -1,5 +1,0 @@
-subsite,node,sensor,stream,parameters,climatologyTable
-GA02HYPM,WFP02,04-CTDPFL000,ctdpf_ckl_wfp_instrument_recovered,"{'inp': 'ctdpf_ckl_seawater_temperature', 'tinp': 'time', 'zinp': 'ctdpf_ckl_seawater_pressure'}",GA02HYPM-WFP02-04-CTDPFL000-ctdpf_ckl_seawater_temperature.csv
-GA02HYPM,WFP02,04-CTDPFL000,ctdpf_ckl_wfp_instrument_recovered,"{'inp': 'ctdpf_ckl_seawater_conductivity', 'tinp': 'time', 'zinp': 'ctdpf_ckl_seawater_pressure'}",GA02HYPM-WFP02-04-CTDPFL000-ctdpf_ckl_seawater_conductivity.csv
-GA02HYPM,WFP02,04-CTDPFL000,ctdpf_ckl_wfp_instrument,"{'inp': 'ctdpf_ckl_seawater_temperature', 'tinp': 'time', 'zinp': 'ctdpf_ckl_seawater_pressure'}",GA02HYPM-WFP02-04-CTDPFL000-ctdpf_ckl_seawater_temperature.csv
-GA02HYPM,WFP02,04-CTDPFL000,ctdpf_ckl_wfp_instrument,"{'inp': 'ctdpf_ckl_seawater_conductivity', 'tinp': 'time', 'zinp': 'ctdpf_ckl_seawater_pressure'}",GA02HYPM-WFP02-04-CTDPFL000-ctdpf_ckl_seawater_conductivity.csv
