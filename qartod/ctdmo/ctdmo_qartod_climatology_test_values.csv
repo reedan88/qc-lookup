@@ -1,0 +1,10 @@
+id,subsite,node,sensor,stream,parameters,climatologyTable,source
+1,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument_recovered,"{'inp': 'ctdmo_seawater_pressure', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_pressure.csv,
+2,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument_recovered,"{'inp': 'ctdmo_seawater_temperature', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_temperature.csv,
+3,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument_recovered,"{'inp': 'ctdmo_seawater_conductivity', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_conductivity.csv,
+4,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_instrument_recovered,"{'inp': 'ctdmo_seawater_pressure', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_pressure.csv,
+5,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_instrument_recovered,"{'inp': 'ctdmo_seawater_temperature', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_temperature.csv,
+6,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_instrument_recovered,"{'inp': 'ctdmo_seawater_conductivity', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_conductivity.csv,
+7,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument,"{'inp': 'ctdmo_seawater_pressure', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_pressure.csv,
+8,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument,"{'inp': 'ctdmo_seawater_temperature', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_temperature.csv,
+9,GA01SUMO,RII11,02-CTDMOQ011,ctdmo_ghqr_imodem_instrument,"{'inp': 'ctdmo_seawater_conductivity', 'tinp': 'time', 'zinp': None}",climatology_tables/GA01SUMO-RII11-02-CTDMOQ011-ctdmo_seawater_conductivity.csv,
