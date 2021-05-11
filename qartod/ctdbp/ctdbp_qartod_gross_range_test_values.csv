@@ -151,14 +151,14 @@ id,subsite,node,sensor,stream,parameters,qcConfig,source
 150,CE09OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_instrument_recovered,{'inp': 'ctdbp_seawater_conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [3.25, 3.36], 'fail_span': [0.0, 9.0]}}}",Sensor min/max is derived from the vendor documentation; user min/max is based on a historical mean (4+ years) of the Washington offshore seafloor CTDs +- 3 standard deviations.
 151,CE09OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_instrument_recovered,{'inp': 'ctdbp_seawater_pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [527.23, 563.71], 'fail_span': [0.0, 1000.0]}}}",Sensor min/max is derived from the vendor documentation; user min/max is based on a historical mean (4+ years) of the Washington offshore seafloor CTDs +- 3 standard deviations.
 152,CE09OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_instrument_recovered,{'inp': 'practical_salinity'},"{'qartod': {'gross_range_test': {'suspect_span': [33.99, 34.26], 'fail_span': [0.0, 42.0]}}}",Sensor min/max is derived from the vendor documentation; user min/max is based on a historical mean (4+ years) of the Washington offshore seafloor CTDs +- 3 standard deviations.
-153,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 9]}}}",
-154,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 5000]}}}",
-155,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'temp'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [-5, 35]}}}",
-156,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'practical_salinity'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 42]}}}",
-157,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 9]}}}",
-158,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 5000]}}}",
-159,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'temp'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [-5, 35]}}}",
-160,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'practical_salinity'},"{'qartod': {'gross_range_test': {'suspect_span': [nan, nan], 'fail_span': [0, 42]}}}",
+153,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [3.37, 3.62], 'fail_span': [0, 9]}}}",
+154,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [34.35, 41.87], 'fail_span': [0, 5000]}}}",
+155,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'temp'},"{'qartod': {'gross_range_test': {'suspect_span': [6.08, 8.95], 'fail_span': [-5, 35]}}}",
+156,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument_recovered,{'inp': 'practical_salinity'},"{'qartod': {'gross_range_test': {'suspect_span': [34.06, 34.15], 'fail_span': [0, 42]}}}",
+157,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [3.37, 3.62], 'fail_span': [0, 9]}}}",
+158,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [34.35, 41.87], 'fail_span': [0, 5000]}}}",
+159,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'temp'},"{'qartod': {'gross_range_test': {'suspect_span': [6.08, 8.95], 'fail_span': [-5, 35]}}}",
+160,GS01SUMO,RII11,02-CTDBPP031,ctdbp_p_dcl_instrument,{'inp': 'practical_salinity'},"{'qartod': {'gross_range_test': {'suspect_span': [34.06, 34.15], 'fail_span': [0, 42]}}}",
 185,CP04OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_dcl_instrument_recovered,{'inp': 'conductivity'},"{'qartod': {'gross_range_test': {'suspect_span': [3.36, 3.7], 'fail_span': [0, 9]}}}",
 186,CP04OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_dcl_instrument_recovered,{'inp': 'pressure'},"{'qartod': {'gross_range_test': {'suspect_span': [436.07, 475.85], 'fail_span': [0, 5000]}}}",
 187,CP04OSSM,MFD37,03-CTDBPE000,ctdbp_cdef_dcl_instrument_recovered,{'inp': 'temp'},"{'qartod': {'gross_range_test': {'suspect_span': [4.96, 8.44], 'fail_span': [-5, 35]}}}",
