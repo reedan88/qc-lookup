@@ -1,0 +1,5 @@
+subsite,node,sensor,stream,parameters,climatologyTable,source
+CP01CNSM,SBD12,04-PCO2AA000,pco2a_a_dcl_instrument_air_recovered,"{'inp': 'partial_pressure_co2_atm', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CP01CNSM-SBD12-04-PCO2AA000-partial_pressure_co2_atm.csv,
+CP01CNSM,SBD12,04-PCO2AA000,pco2a_a_dcl_instrument_air,"{'inp': 'partial_pressure_co2_atm', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CP01CNSM-SBD12-04-PCO2AA000-partial_pressure_co2_atm.csv,
+CP01CNSM,SBD12,04-PCO2AA000,pco2a_a_dcl_instrument_water_recovered,"{'inp': 'partial_pressure_co2_ssw', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CP01CNSM-SBD12-04-PCO2AA000-partial_pressure_co2_ssw.csv,
+CP01CNSM,SBD12,04-PCO2AA000,pco2a_a_dcl_instrument_water,"{'inp': 'partial_pressure_co2_ssw', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CP01CNSM-SBD12-04-PCO2AA000-partial_pressure_co2_ssw.csv,
