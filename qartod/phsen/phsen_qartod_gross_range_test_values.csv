@@ -1,4 +1,4 @@
-subsite,node,sensor,stream,parameter,qcConfig,source,notes
+subsite,node,sensor,stream,parameters,qcConfig,source,notes
 CE02SHBP,LJ01D,10-PHSEND103,phsen_data_record,{'inp': 'ph_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [7.24, 8.04], 'fail_span': [6.9, 9.0]}}}",Sensor min/max derived from vendor documentation; user min/max is the historical mean of all data collected up to 2021-01-01 +/- 3 stddev,
 CE04OSBP,LJ01C,10-PHSEND107,phsen_data_record,{'inp': 'ph_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [7.28, 7.86], 'fail_span': [6.9, 9.0]}}}",Sensor min/max derived from vendor documentation; user min/max is the historical mean of all data collected up to 2021-01-01 +/- 3 stddev,
 CE04OSPS,PC01B,4B-PHSENA106,phsen_data_record,{'inp': 'ph_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [7.53, 7.87], 'fail_span': [6.9, 9.0]}}}",Sensor min/max derived from vendor documentation; user min/max is the historical mean of all data collected up to 2021-01-01 +/- 3 stddev,
