@@ -1,4 +1,4 @@
-subsite,node,sensor,stream,parameter,qcConfig,source,notes
+subsite,node,sensor,stream,parameters,qcConfig,source,notes
 CE02SHBP,LJ01D,09-PCO2WB103,pco2w_b_sami_data_record,{'inp': 'pco2_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [200.0, 2000.0], 'fail_span': [200.0, 2000.0]}}}",Sensor min/max derived from communication with vendor; user min/max is historical mean as of 2021-02-19 +/- 3 stddev,Modified user min/max to limit to sensor range due to high stddev
 CE04OSBP,LJ01C,09-PCO2WB104,pco2w_b_sami_data_record,{'inp': 'pco2_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [600.9, 1989.86], 'fail_span': [200.0, 2000.0]}}}",Sensor min/max derived from communication with vendor; user min/max is historical mean as of 2021-02-19 +/- 3 stddev,
 CE04OSPS,PC01B,4D-PCO2WA105,pco2w_a_sami_data_record,{'inp': 'pco2_seawater'},"{'qartod': {'gross_range_test': {'suspect_span': [634.38, 1448.06], 'fail_span': [200.0, 2000.0]}}}",Sensor min/max derived from communication with vendor; user min/max is historical mean as of 2021-02-19 +/- 3 stddev,
