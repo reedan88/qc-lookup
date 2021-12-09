@@ -41,4 +41,3 @@ CE09OSSM,MFD35,02-PRESFC000,presf_abc_dcl_tide_measurement_recovered,"{'inp': 's
 CE09OSSM,MFD35,02-PRESFC000,presf_abc_dcl_tide_measurement_recovered,"{'inp': 'abs_seafloor_pressure', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CE09OSSM-MFD35-02-PRESFC000-abs_seafloor_pressure.csv,The variance explained by the climatological model is 22.0%.,
 CE09OSSM,MFD35,02-PRESFC000,presf_abc_tide_measurement_recovered,"{'inp': 'presf_tide_temperature', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CE09OSSM-MFD35-02-PRESFC000-seawater_temperature.csv,The variance explained by the climatological model is 45.6%.,
 CE09OSSM,MFD35,02-PRESFC000,presf_abc_tide_measurement_recovered,"{'inp': 'presf_tide_pressure', 'tinp': 'time', 'zinp': 'None'}",climatology_tables/CE09OSSM-MFD35-02-PRESFC000-abs_seafloor_pressure.csv,The variance explained by the climatological model is 16.0%.,
-
