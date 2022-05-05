@@ -129,7 +129,7 @@ if __name__ == "__main__":
         verbose = False
 
     qc_lookup_root = '../'
-    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','metbk','pco2a','pco2w','phsen','presf']
+    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','flort','metbk','pco2a','pco2w','phsen','presf']
     qc_testFolderTypes = {'climatology_tables': validate_climatologyTable}
 
     # define the path
