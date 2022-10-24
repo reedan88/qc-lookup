@@ -27,6 +27,7 @@ def validate_grossRangeFile(file,verbose):
     firstline = Lines[0].rstrip()
     if firstline != header:
         missingColumns = [ele for ele in header.split(',') if ele not in firstline.split(',')]
+        print('error found in gross range file: ', file)
         print('file header missing columns: ', missingColumns)
     for i in range(1,len(Lines)):
         cStr = Lines[i]
@@ -35,6 +36,7 @@ def validate_grossRangeFile(file,verbose):
             print('incorrect number of columns!', line)
         for j in range(0,len(line)):
             if not regexDict[j].match(line[j]):
+                print('error found in gross range file: ', file, 'line: ', i)
                 print('column not formatted correctly: ', line[j])
    
 
@@ -60,6 +62,7 @@ def validate_climatologyFile(file,verbose):
     firstline = Lines[0].rstrip()
     if firstline != header:
         missingColumns = [ele for ele in header.split(',') if ele not in firstline.split(',')]
+        print('error found in climatology file: ', file)
         print('file header missing columns: ', missingColumns)
     for i in range(1,len(Lines)):
         cStr = Lines[i]
@@ -129,7 +132,7 @@ if __name__ == "__main__":
         verbose = False
 
     qc_lookup_root = '../'
-    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','flort','metbk','pco2a','pco2w','phsen','presf']
+    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','dofst','dosta','flord','flort','metbk','parad','pco2a','pco2w','phsen','presf']
     qc_testFolderTypes = {'climatology_tables': validate_climatologyTable}
 
     # define the path
