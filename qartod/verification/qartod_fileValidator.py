@@ -132,7 +132,7 @@ if __name__ == "__main__":
         verbose = False
 
     qc_lookup_root = '../'
-    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','dofst','dosta','flord','flort','metbk','parad','pco2a','pco2w','phsen','presf']
+    qc_sensorTypes = ['ctdav','ctdbp','ctdgv','ctdmo','ctdpf','dofst','dosta','flord','flort','metbk','nutnr', 'parad','pco2a','pco2w','phsen','presf', 'wavss']
     qc_testFolderTypes = {'climatology_tables': validate_climatologyTable}
 
     # define the path
@@ -165,3 +165,4 @@ if __name__ == "__main__":
                             validate_climatologyFile(subItem,verbose)
                         else:
                             print('unknown or misnamed file: ', subItem)
+
