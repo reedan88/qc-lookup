@@ -1,4 +1,4 @@
-subsite,node,sensor,stream,parameter,qcConfig,source,notes
+subsite,node,sensor,stream,parameters,qcConfig,source,notes
 CP01CNSM,MFD35,04-VELPTA000,velpt_ab_dcl_instrument,{'inp': 'eastward_velocity'},"{'qartod': {'gross_range_test': {'suspect_span': [-0.27284, 0.21633], 'fail_span': [-5, 5]}}}",,User range based on data collected through 2023-01-01.
 CP01CNSM,MFD35,04-VELPTA000,velpt_ab_dcl_instrument_recovered,{'inp': 'eastward_velocity'},"{'qartod': {'gross_range_test': {'suspect_span': [-0.27284, 0.21633], 'fail_span': [-5, 5]}}}",,User range based on data collected through 2023-01-01.
 CP01CNSM,MFD35,04-VELPTA000,velpt_ab_instrument_recovered,{'inp': 'eastward_velocity'},"{'qartod': {'gross_range_test': {'suspect_span': [-0.27284, 0.21633], 'fail_span': [-5, 5]}}}",,User range based on data collected through 2023-01-01.
